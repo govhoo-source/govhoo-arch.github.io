@@ -162,7 +162,7 @@ footer{background:var(--navy-deep);color:#9fb0bf;padding:44px 0 26px;font-size:1
 .foot-grid li{padding:3px 0}
 .foot-grid a{color:#9fb0bf}
 .foot-grid a:hover{color:var(--gold)}
-.foot-note{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;text-align:center;color:#7d8fa0;font-size:12px;line-height:1.9}
+.foot-note{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;text-align:center;color:#7d8fa0;font-size:11px;line-height:1.9}
 /* floating wa */
 .wa-float{position:fixed;inset-inline-end:22px;bottom:calc(22px + env(safe-area-inset-bottom,0px));z-index:200;width:58px;height:58px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,.4);transition:transform .18s}
 .wa-float:hover{transform:scale(1.08)}
@@ -275,8 +275,12 @@ header.nav-hidden{transform:translateY(-102%)}
   /* ---- 页脚 ---- */
   footer{padding:34px 0 calc(96px + env(safe-area-inset-bottom,0px))}
   .foot-grid{grid-template-columns:1fr;gap:22px;margin-bottom:20px}
+  /* 页脚「网站导航」四个链接横排（胶囊按钮，可自动换行） */
+  .foot-nav{display:flex;flex-wrap:wrap;gap:8px}
+  .foot-nav li{padding:0}
+  .foot-nav a{display:inline-flex;align-items:center;padding:7px 14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;font-size:13px;white-space:nowrap}
   .foot-grid h5{margin-bottom:8px}
-  .foot-note{font-size:11.5px}
+  .foot-note{font-size:10.5px}
 
   /* ---- 悬浮按钮 ---- */
   .wa-float{width:52px;height:52px;inset-inline-end:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px))}
@@ -499,7 +503,7 @@ header.nav-hidden{transform:translateY(-102%)}
       </div>
       <div data-page-node-id="WaGw7usjxmKbCED6KjpGl2">
         <h5 data-i18n="footNav" data-page-node-id="AXtOxzcJMtmHUClR3io55J">网站导航</h5>
-        <ul data-page-node-id="gWHnNEKcRusoyKpyCAkuvb">
+        <ul class="foot-nav" data-page-node-id="gWHnNEKcRusoyKpyCAkuvb">
           <li data-page-node-id="bjI9IKV50zlc7j4ODq4SHy"><a href="#services" data-i18n="navServices" data-page-node-id="sM8UUYHsgCsgwBZUFVhTg8">服务清单</a></li>
           <li data-page-node-id="NrvXvwCMVO6LPUvwkErgvZ"><a href="#about" data-i18n="navAbout" data-page-node-id="lIyH0rdPF6nVAjYgPp2FvB">关于我们</a></li>
           <li data-page-node-id="KhMEuzGcpgbhDYX6rQ3EqI"><a href="#fees" data-i18n="navFees" data-page-node-id="8gGb5TP1U78vq5hkBhBKxV">收费模式</a></li>
