@@ -275,10 +275,10 @@ header.nav-hidden{transform:translateY(-102%)}
   /* ---- 页脚 ---- */
   footer{padding:34px 0 calc(96px + env(safe-area-inset-bottom,0px))}
   .foot-grid{grid-template-columns:1fr;gap:22px;margin-bottom:20px}
-  /* 页脚「网站导航」四个链接横排（胶囊按钮，可自动换行） */
-  .foot-nav{display:flex;flex-wrap:wrap;gap:8px}
-  .foot-nav li{padding:0}
-  .foot-nav a{display:inline-flex;align-items:center;padding:7px 14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;font-size:13px;white-space:nowrap}
+  /* 页脚「网站导航」四个链接横排：四等分网格，强制同一行 */
+  .foot-nav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .foot-nav li{padding:0;min-width:0}
+  .foot-nav a{display:flex;align-items:center;justify-content:center;padding:8px 4px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .foot-grid h5{margin-bottom:8px}
   .foot-note{font-size:10.5px}
 
