@@ -12,7 +12,7 @@
 <meta property="og:type" content="website" data-page-node-id="qp6jSfD7uHpMztR3tEMrHd">
 <meta property="og:url" content="https://www.familybondlaw.com/" data-page-node-id="LY2aXbFtj6MX7jxNgQAPDO">
 <meta property="og:image" content="https://www.familybondlaw.com/images/lawyer-portrait.jpg" data-page-node-id="cO1IBANgksYvn626BVYDIv">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' data-page-node-id="xkiQmv4iRLJI7hoADguLjy"><text y='.9em' font-size='90' data-page-node-id="KcKj5pmkVB9f8muifCehdm">&#9878;</text></svg>">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%E2%9A%96%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com" data-page-node-id="BLabFwFAy5uje0Cugzn59v">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-page-node-id="Vb1MmGGCnNenj0bApCAD1C">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" data-page-node-id="kafIMRnM1GmFX0QaGZS494">
@@ -176,16 +176,16 @@ header.nav-hidden{transform:translateY(-102%)}
 @media(max-width:960px){
   .container{padding:0 18px}
 
-  /* ---- 导航栏：两行紧凑布局 ---- */
+  /* ---- 导航栏：两行紧凑布局（第一行 = 品牌 + 语言 + WhatsApp，强制同一行）---- */
   .nav-wrap{padding:9px 0;gap:8px;flex-wrap:wrap}
-  .brand{gap:9px;min-width:0;flex:1 1 auto}
+  .brand{gap:9px;min-width:0;flex:1 1 0}
   .brand>div{min-width:0}
-  .brand-mark{width:38px;height:38px;border-radius:9px}
-  .brand-name{font-size:15px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brand-mark{width:36px;height:36px;border-radius:9px}
+  .brand-name{font-size:14.5px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .brand-sub{display:none}
   .header-actions{gap:6px;margin-inline-start:auto;flex:0 0 auto}
-  #languageSelect{min-height:36px;font-size:16px;max-width:112px;padding:0 4px}
-  .wa-chip{min-height:36px;padding:0 12px;font-size:13px;gap:5px}
+  #languageSelect{min-height:36px;font-size:16px;max-width:104px;padding:0 4px}
+  .wa-chip{min-height:36px;padding:0 11px;font-size:12.5px;gap:5px}
   .wa-chip svg{width:15px;height:15px}
   .nav-links{order:3;width:100%;flex-wrap:nowrap;gap:6px;margin-top:2px}
   .nav-links a{flex:1 1 0;min-width:0;text-align:center;padding:10px 4px;font-size:13.5px;
@@ -284,12 +284,17 @@ header.nav-hidden{transform:translateY(-102%)}
   .to-top{width:38px;height:38px;font-size:16px;inset-inline-start:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px))}
 }
 @media(max-width:520px){
-  .container{padding:0 15px}
-  .brand-name{font-size:14px}
+  .container{padding:0 14px}
+  /* 品牌 + 语言 + WhatsApp 同一行：进一步压缩尺寸，确保 360px 屏也能排下 */
+  .nav-wrap{gap:6px;padding:8px 0}
+  .brand{gap:8px}
+  .brand-name{font-size:13.5px}
   .brand-name b{display:none}
-  .brand-mark{width:34px;height:34px;border-radius:8px}
-  #languageSelect{max-width:100px}
-  .wa-chip{padding:0 10px;font-size:12.5px}
+  .brand-mark{width:32px;height:32px;border-radius:8px}
+  .header-actions{gap:5px}
+  #languageSelect{max-width:86px;padding:0 2px}
+  .wa-chip{padding:0 9px;font-size:12px;gap:4px;min-height:34px}
+  .wa-chip svg{width:14px;height:14px}
   .nav-links a{font-size:12.5px;padding:9px 2px}
   h1.hero-title{font-size:clamp(25px,7.8vw,30px)}
   .hero{padding:42px 0 40px}
@@ -314,7 +319,7 @@ header.nav-hidden{transform:translateY(-102%)}
 <header data-page-node-id="wxtSYjNTdJykw9wm65CiJF">
   <div class="container nav-wrap" data-page-node-id="goh8cabsNiJODoisZkMLjZ">
     <a href="#top" class="brand" data-page-node-id="l8FhXHCjdQ1K88A9Sx1c8E">
-      <img src="./images/lawyer-avatar.jpg" alt="康雪崧律师 Kang Xuesong" class="brand-mark" data-page-node-id="FSGg9NliQhdiAsh0SnVzJt">
+      <img src="./lawyer-avatar.jpg" alt="康雪崧律师 Kang Xuesong" class="brand-mark" data-page-node-id="FSGg9NliQhdiAsh0SnVzJt">
       <div data-page-node-id="JWZS82jcWn4BGs7JiGgYrd">
         <div class="brand-name" data-i18n="brandName" data-page-node-id="IgHEg8oEjsi5ynoCM90Csl">康雪崧律师团队<b data-page-node-id="ELxoZZoJX9Lv72H1Po1B6f"> · 功承瀛泰</b></div>
         <div class="brand-sub" data-i18n="brandSub" data-page-node-id="MlpMdvNpTHK8i77UcefqGk">跨境采购法律服务 · Cross-border Sourcing Legal Services</div>
