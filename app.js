@@ -7,26 +7,26 @@
 /* ---------- 通用 UI 文案翻译 ---------- */
 const I18N = {
   zh: {
-    pageTitle: "外国采购商中国法律服务 | 康雪崧律师团队 · 功承瀛泰深圳",
+    pageTitle: "中国执业律师 · 服务境外采购商 | 康雪崧律师 · 功承瀛泰深圳",
     brandName: "康雪崧律师团队<b> · 功承瀛泰</b>",
     brandSub: "跨境采购法律服务 · 中国 · 深圳",
-    navServices: "服务清单", navAbout: "关于我们", navFees: "收费模式", navContact: "联系我们",
-    heroEyebrow: "外国采购商 · 中国法律服务清单",
-    heroTitle1: "外国采购商", heroTitle2: "中国法律服务清单",
-    heroSub: "从供应商尽职调查到采购合同、货款安全、知识产权保护、贸易合规与争议解决——康雪崧律师团队依托功承瀛泰全国网络，为境外采购商提供全链条、中英双语的在地法律支持。",
-    heroEn: "Kang Xuesong Team · Wintell & Co (Shenzhen) — trusted legal counsel for overseas buyers sourcing from China.",
+    navServices: "服务清单", navAbout: "关于我", navFees: "收费模式", navContact: "联系我们",
+    heroEyebrow: "中国执业律师 · 中英双语 · 深耕跨境贸易",
+    heroTitle1: "你在中国采购，", heroTitle2: "我就是你在中国的律师",
+    heroSub: "我是康雪崧，中国执业律师、上海功承瀛泰（深圳）律师事务所合伙人。我懂中国法律、能用中英双语直接沟通、熟悉跨境贸易实操，长期服务境外采购商——从供应商尽调、合同把关、货款安全，到知识产权、贸易合规与争议解决，替你在中国的生意挡住风险。",
+    heroEn: "Kang Xuesong · China-qualified lawyer · Wintell & Co (Shenzhen) — your on-the-ground counsel in China.",
     btnCatalogue: "浏览服务清单",
-    heroCardTag: "为什么选择我们",
-    why1: "中英文双语服务 · Bilingual (CN/EN) counsel",
-    why2: "粤港澳大湾区区位 · 深圳办公室毗邻香港",
-    why3: "全国 18 家办公室协同交付",
-    why4: "HFW（英国）· 新加坡联营跨境网络",
-    why5: "标准化产品 · 固定费用 · 透明报价",
-    why6: "海事海商 / 贸易合规 / 知产专家团队支持",
+    heroCardTag: "为什么是我",
+    why1: "中国执业律师：在中国境内可立案、可出庭、可保全、可执行",
+    why2: "中英双语直连沟通，不靠翻译转述",
+    why3: "香港大学金融背景，懂跨境贸易实操与供应链",
+    why4: "服务过同类境外采购商：付款前尽调、货款追索、商标抢注应对",
+    why5: "依托功承瀛泰全国 18 家办公室与英国 HFW 联营网络",
+    why6: "标准化产品 · 签约前书面报价 · 费用透明",
     tr1s: "家", tr2s: "名", tr3n: "双",
     tr1: "全国办公室", tr2: "专业人员", tr3: "语言能力", tr4: "深圳分所设立",
     cataEyebrow: "服务目录", cataTitle: "八大板块 · 覆盖采购全流程", cataSub: "每一项服务均可在签约前获得书面报价，交付成果可提供英文版本。点击上方板块快速跳转。",
-    abEyebrow: "关于我们", abTitle: "关于我们",
+    abEyebrow: "关于我", abTitle: "关于我",
     abFirmH: "关于律所 — 上海功承瀛泰律师事务所",
     abFirmP1: "功承瀛泰（Wintell & Co）是一家全国性综合律师事务所，由上海瀛泰与吉林功承于 2023 年合并设立，总部位于上海，拥有近 500 名专业人员，在全国设有 18 家办公室，并与英国夏礼文律师事务所（HFW）及新加坡律师事务所建立联营合作，可为客户提供跨法域一体化法律服务。",
     abFirmP2: "律所长期深耕海事海商、跨境商事争议解决与国际仲裁、金融保险、知识产权及公司商事领域，代理案例多次入选《最高人民法院公报》及最高人民法院涉“一带一路”建设典型案例，连续多年获钱伯斯（Chambers）、The Legal 500、《亚洲法律杂志》（ALB）、《商法》（CBLJ）等国际权威评级推荐，并获评“全国优秀律师事务所”。",
@@ -40,8 +40,8 @@ const I18N = {
     kName: "康雪崧 律师", kRole: "功承瀛泰（深圳）律师事务所合伙人 · 团队负责人",
     kEdu1: "中山大学", kEdu1b: "法学本科",
     kEdu2: "香港大学", kEdu2b: "金融与投资管理研究生",
-    kBio1: "康雪崧律师，2014 年起执业，具有中国内地与香港跨境法律服务的复合背景，长期为境内外企业及个人客户提供中英文双语法律服务，深耕涉港涉外法律业务，兼具公司治理、合同纠纷与企业法律顾问的丰富实务经验。",
-    kBio2: "其服务产品曾获深圳市律师协会创新大赛二等奖（2023）与三等奖（2026）。涉外采购法律服务由其团队牵头，并联合全所海事海商、跨境合规、知识产权等专业团队协同交付。",
+    kBio1: "我是康雪崧，中国执业律师，2014 年起执业，上海功承瀛泰（深圳）律师事务所合伙人。中山大学法学本科、香港大学金融与投资管理研究生，兼具法律与金融的复合背景，长期为境内外企业客户提供中英文双语法律服务，深耕涉港涉外业务。",
+    kBio2: "我懂中国法律、说中英双语、熟悉跨境贸易实操，也长期服务境外采购商，可以把中国法律要求和你的采购安排放在一起考虑。团队服务产品曾获深圳市律师协会创新大赛二等奖（2023）与三等奖（2026），涉外采购法律服务由我牵头，联合全所海事海商、跨境合规、知识产权团队协同交付。",
     kBadge1: "Chambers / Legal 500 推荐律所", kBadge2: "执业证号 14403201411015550",
     feeEyebrow: "收费模式", feeTitle: "服务收费模式",
     feeSub: "所有报价均为含税价；差旅、公证、翻译及第三方机构费用实报实销。",
@@ -54,29 +54,42 @@ const I18N = {
     footDesc: "上海功承瀛泰（深圳）律师事务所。为外国采购商提供中国采购全流程法律服务。本网站所有内容仅供一般信息参考，不构成法律意见。",
     footNav: "网站导航", footContact: "联系方式",
     footCopy: "康雪崧律师团队 · 上海功承瀛泰（深圳）律师事务所",
-    footDisclaimer: "本网站及其内容仅供服务介绍之用，不构成法律意见；具体权利义务以双方签署的委托合同为准。"
+    footDisclaimer: "本网站及其内容仅供服务介绍之用，不构成法律意见；具体权利义务以双方签署的委托合同为准。",
+    painEyebrow: "你的真实处境",
+    painTitle: "跨境采购里，真正让人睡不着觉的 8 件事",
+    painSub: "每一条都对应一个具体的服务板块——点击卡片，可直接跳转到对应服务。",
+    painJump: "查看对应板块",
+    painMapLead: "对应服务板块",
+    advEyebrow: "为什么是我",
+    advTitle: "四个理由，让你敢把在中国的法律事务交给我",
+    advSub: "懂中国法律、中英双语、熟悉跨境贸易实操、有同类外商客户经验——这四点决定了我能为你做什么、做到什么程度。",
+    gapEyebrow: "服务路径说明",
+    gapTitle: "不同路径，能覆盖到哪一步",
+    gapSub: "一件跨境采购的事能推进到哪一步，取决于执业资格与中国法律的程序要求。以下是常见路径的职能范围，以及我可以承接的部分。",
+    gapCant: "常见路径的职能范围",
+    gapCan: "我可以承接的部分"
   },
   en: {
-    pageTitle: "Legal Services for Overseas Buyers in China | Kang Xuesong Team · Wintell & Co Shenzhen",
+    pageTitle: "China-Qualified Lawyer for Overseas Buyers | Kang Xuesong · Wintell & Co Shenzhen",
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Cross-border Sourcing Legal Services · Shenzhen, China",
-    navServices: "Services", navAbout: "About Us", navFees: "Fee Models", navContact: "Contact",
-    heroEyebrow: "Legal Service Catalogue for Overseas Buyers",
-    heroTitle1: "Legal Services for", heroTitle2: "Overseas Buyers in China",
-    heroSub: "From supplier due diligence to purchase contracts, payment security, IP protection, trade compliance and dispute resolution — the Kang Xuesong Team, backed by Wintell & Co's national network, provides full-chain, bilingual on-the-ground legal support for overseas buyers.",
-    heroEn: "康雪崧律师团队 · 上海功承瀛泰（深圳）律师事务所",
+    navServices: "Services", navAbout: "About", navFees: "Fees", navContact: "Contact",
+    heroEyebrow: "China-Qualified Lawyer · Bilingual · Cross-border Trade",
+    heroTitle1: "Sourcing in China?", heroTitle2: "I am your lawyer in China",
+    heroSub: "I am Kang Xuesong, a China-qualified lawyer and partner at Wintell & Co (Shenzhen). I know Chinese law, work in both Chinese and English, and understand how cross-border trade actually operates. I have long served overseas buyers — from supplier due diligence, contract review and payment security to IP, trade compliance and dispute resolution — protecting your business on the ground in China.",
+    heroEn: "康雪崧律师 · 中国执业律师 · 上海功承瀛泰（深圳）律师事务所",
     btnCatalogue: "Browse Services",
-    heroCardTag: "Why us",
-    why1: "Bilingual counsel (Chinese & English)",
-    why2: "Shenzhen office next to Hong Kong in the GBA",
-    why3: "Coordinated delivery across 18 national offices",
-    why4: "Associated network: HFW (UK) & a Singapore firm",
-    why5: "Standardised products · fixed fees · transparent quotes",
-    why6: "Maritime / trade compliance / IP specialist teams",
+    heroCardTag: "Why me",
+    why1: "A China-qualified lawyer: can file, appear, preserve and enforce inside China",
+    why2: "Direct bilingual communication — no translator in between",
+    why3: "HKU finance background; understands trade practice and supply chains",
+    why4: "Has served overseas buyers: pre-payment due diligence, payment recovery, trademark squatting",
+    why5: "Backed by Wintell & Co's 18 national offices and the HFW (UK) association",
+    why6: "Standardised products · written quotes before engagement · transparent fees",
     tr1s: "Offices", tr2s: "Professionals", tr3n: "2",
     tr1: "National offices", tr2: "Professionals", tr3: "Languages", tr4: "Shenzhen office since",
     cataEyebrow: "Service Catalogue", cataTitle: "Eight Sections Covering the Full Sourcing Journey", cataSub: "Written quotes are available before engagement for every service; deliverables can be provided in English. Use the chips above to jump to a section.",
-    abEyebrow: "About Us", abTitle: "About Us",
+    abEyebrow: "About me", abTitle: "About me",
     abFirmH: "The Firm — Wintell & Co",
     abFirmP1: "Wintell & Co is a full-service national law firm headquartered in Shanghai, formed in 2023 through the merger of Wintell and Gongcheng. With nearly 500 professionals across 18 offices nationwide, and through its associations with HFW (UK) and a Singapore law firm, the firm provides integrated cross-border legal services.",
     abFirmP2: "The firm is well known for maritime law, cross-border commercial dispute resolution and international arbitration, finance and insurance, IP and corporate & commercial work. Its cases have been published in the Gazette of the Supreme People's Court and listed among the SPC's typical cases concerning the Belt & Road Initiative. It is consistently recommended by Chambers and Partners, The Legal 500, ALB and China Business Law Journal, and has been honoured as a 'National Excellent Law Firm'.",
@@ -90,8 +103,8 @@ const I18N = {
     kName: "Kang Xuesong", kRole: "Partner, Wintell & Co (Shenzhen Office) · Team Lead",
     kEdu1: "Sun Yat-sen University", kEdu1b: "LL.B., Law",
     kEdu2: "The University of Hong Kong", kEdu2b: "Postgraduate, Finance & Investment Management",
-    kBio1: "Admitted to practise in 2014, Kang Xuesong has a blended China-mainland/Hong Kong cross-border practice background and has long served domestic and overseas corporate and individual clients bilingually. She focuses on Hong Kong-related and cross-border matters, with solid experience in corporate governance, commercial disputes and corporate legal counsel.",
-    kBio2: "Her service products won 2nd prize (2023) and 3rd prize (2026) in the Shenzhen Lawyers Association Innovation Competition. Cross-border sourcing services under this catalogue are led by her team and delivered in collaboration with the firm's maritime, trade compliance and IP teams nationwide.",
+    kBio1: "I am Kang Xuesong, a China-qualified lawyer in practice since 2014 and a partner at Wintell & Co (Shenzhen). I hold an LL.B. from Sun Yat-sen University and a postgraduate degree in Finance and Investment Management from the University of Hong Kong — a combined legal and financial background — and I have long served domestic and international clients in Chinese and English, focusing on Hong Kong-related and cross-border matters.",
+    kBio2: "I know Chinese law, work in two languages, understand cross-border trade practice, and have long served overseas buyers, so PRC requirements and your sourcing arrangements are considered together. Our service products won second prize (2023) and third prize (2026) in the Shenzhen Lawyers Association Innovation Competition; cross-border sourcing services are led by me and delivered with the firm's maritime, trade-compliance and IP teams.",
     kBadge1: "Chambers / Legal 500 recommended firm", kBadge2: "PRC Licence No. 14403201411015550",
     feeEyebrow: "Fee Models", feeTitle: "Fee Models",
     feeSub: "All quotes are inclusive of tax; travel, notarisation, translation and third-party costs are reimbursed at cost.",
@@ -104,29 +117,42 @@ const I18N = {
     footDesc: "Wintell & Co (Shenzhen Office). Full-process legal services for overseas buyers sourcing from China. Content on this website is for general information only and does not constitute legal advice.",
     footNav: "Sitemap", footContact: "Contact",
     footCopy: "Kang Xuesong Team · Wintell & Co (Shenzhen Office)",
-    footDisclaimer: "This website and its content are for service introduction only and do not constitute legal advice; rights and obligations are governed by the engagement agreement signed by the parties."
+    footDisclaimer: "This website and its content are for service introduction only and do not constitute legal advice; rights and obligations are governed by the engagement agreement signed by the parties.",
+    painEyebrow: "Your real situation",
+    painTitle: "Eight things that really keep overseas buyers awake",
+    painSub: "Each one maps to a specific service block — click a card to jump straight to it.",
+    painJump: "See the related service",
+    painMapLead: "Related service block",
+    advEyebrow: "Why me",
+    advTitle: "Four reasons to trust your China legal work to me",
+    advSub: "Chinese law, bilingual delivery, hands-on cross-border trade experience, and buyers like you — these four things define what I can do for you.",
+    gapEyebrow: "Service paths, clarified",
+    gapTitle: "What each route can cover",
+    gapSub: "How far a cross-border sourcing matter can go depends on licensing and on PRC procedural requirements. Below is the scope of the usual routes, and the part I take on.",
+    gapCant: "Scope of the usual routes",
+    gapCan: "What I take on"
   },
   es: {
     pageTitle: "Servicios Legales para Compradores Internacionales en China | Kang Xuesong · Wintell & Co Shenzhen",
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Servicios legales transfronterizos · Shenzhen, China",
-    navServices: "Servicios", navAbout: "Nosotros", navFees: "Honorarios", navContact: "Contacto",
-    heroEyebrow: "Catálogo de servicios legales para compradores internacionales",
-    heroTitle1: "Servicios legales para", heroTitle2: "compradores internacionales en China",
-    heroSub: "Desde la diligencia debida de proveedores hasta contratos de compra, seguridad de pagos, protección de propiedad intelectual, cumplimiento comercial y resolución de disputas — el equipo de Kang Xuesong, con la red nacional de Wintell & Co, ofrece apoyo legal integral y bilingüe para compradores en el extranjero.",
-    heroEn: "Kang Xuesong Team · Wintell & Co (Shenzhen) — asesoría legal de confianza para compradores internacionales.",
+    navServices: "Servicios", navAbout: "Sobre mí", navFees: "Honorarios", navContact: "Contacto",
+    heroEyebrow: "Ejercicio profesional en China · Bilingüe · Comercio transfronterizo",
+    heroTitle1: "¿Compra en China?", heroTitle2: "Yo soy su abogado en China",
+    heroSub: "Mi nombre es Kang Xuesong. Ejerzo en China desde 2014 y dirijo en Wintell & Co (Shenzhen) el equipo de servicios legales para compradores extranjeros. Conozco el Derecho chino, trabajo en chino e inglés y entiendo cómo funciona realmente el comercio transfronterizo: desde la diligencia de proveedores, la revisión de contratos y la seguridad de pagos hasta la propiedad intelectual, el cumplimiento comercial y la resolución de disputas, protejo su negocio sobre el terreno en China.",
+    heroEn: "康雪崧律师 · 中国执业律师 · 上海功承瀛泰（深圳）律师事务所",
     btnCatalogue: "Ver Servicios",
-    heroCardTag: "Por qué nosotros",
-    why1: "Asesoría bilingüe (chino e inglés)",
-    why2: "Oficina en Shenzhen, junto a Hong Kong (Gran Bahía)",
-    why3: "Entrega coordinada en 18 oficinas nacionales",
-    why4: "Red asociada: HFW (Reino Unido) y firma de Singapur",
-    why5: "Productos estandarizados · tarifas fijas · presupuestos transparentes",
-    why6: "Equipos especializados en marítimo, comercio y propiedad intelectual",
+    heroCardTag: "Por qué yo",
+    why1: "Con licencia para ejercer en China: puedo demandar, comparecer, asegurar y ejecutar dentro del país",
+    why2: "Comunicación directa en chino e inglés, sin traductores",
+    why3: "Formación financiera en la Universidad de Hong Kong: el comercio y las cadenas de suministro no me son ajenos",
+    why4: "Experiencia con compradores extranjeros: diligencia previa al pago, cobro de pagos, registros indebidos de marcas",
+    why5: "Con el respaldo de 18 oficinas nacionales de Wintell & Co y la red asociada de HFW (Reino Unido)",
+    why6: "Productos estandarizados · presupuesto por escrito antes de contratar · honorarios transparentes",
     tr1s: "", tr2s: "", tr3n: "2",
     tr1: "Oficinas nacionales", tr2: "Profesionales", tr3: "Idiomas", tr4: "Oficina de Shenzhen desde",
     cataEyebrow: "Catálogo", cataTitle: "Ocho secciones para todo el proceso de compra", cataSub: "Cada servicio cuenta con presupuesto escrito antes del encargo; los entregables pueden emitirse en inglés.",
-    abEyebrow: "Nosotros", abTitle: "Sobre nosotros",
+    abEyebrow: "Sobre mí", abTitle: "Sobre mí",
     abFirmH: "El despacho — Wintell & Co",
     abFirmP1: "Wintell & Co es un despacho nacional de servicios integrales con sede en Shanghái, creado en 2023 mediante la fusión de Wintell y Gongcheng. Con casi 500 profesionales en 18 oficinas en todo el país y asociaciones con HFW (Reino Unido) y una firma de Singapur, ofrece servicios legales transfronterizos integrados.",
     abFirmP2: "El despacho destaca en derecho marítimo, resolución transfronteriza de disputas y arbitraje internacional, finanzas y seguros, propiedad intelectual y derecho corporativo y comercial. Sus casos han sido publicados en el Boletín del Tribunal Supremo Popular y reconocidos como casos típicos de la Iniciativa de la Franja y la Ruta. Es recomendado por Chambers and Partners, The Legal 500, ALB y China Business Law Journal, y ha sido galardonado como 'Despacho Nacional Excelente'.",
@@ -140,8 +166,8 @@ const I18N = {
     kName: "Kang Xuesong", kRole: "Socia, Wintell & Co (Shenzhen) · Líder de equipo",
     kEdu1: "Universidad Sun Yat-sen", kEdu1b: "Licenciatura en Derecho",
     kEdu2: "Universidad de Hong Kong", kEdu2b: "Posgrado en Finanzas y Gestión de Inversiones",
-    kBio1: "Admitida a ejercer en 2014, Kang Xuesong cuenta con experiencia transfronteriza entre China continental y Hong Kong, y atiende en dos idiomas a clientes corporativos e individuales. Se centra en asuntos relacionados con Hong Kong y transfronterizos, con sólida experiencia en gobierno corporativo, disputas comerciales y asesoría legal empresarial.",
-    kBio2: "Sus productos de servicio obtuvieron el 2.º premio (2023) y el 3.er premio (2026) del Concurso de Innovación de la Asociación de Abogados de Shenzhen. Los servicios de este catálogo los lidera su equipo con la colaboración de los equipos nacionales de marítimo, cumplimiento comercial y propiedad intelectual.",
+    kBio1: "Mi nombre es Kang Xuesong. Ejerzo en China desde 2014, en Wintell & Co (Shenzhen), donde dirijo el equipo de servicios legales para compradores extranjeros. Mi formación: licenciatura en Derecho por la Universidad Sun Yat-sen y posgrado en Finanzas y Gestión de Inversiones por la Universidad de Hong Kong, un perfil jurídico y financiero combinado. Atiendo desde hace años a clientes nacionales e internacionales en chino e inglés, con especial dedicación a los asuntos vinculados a Hong Kong y transfronterizos.",
+    kBio2: "Conozco el Derecho chino, trabajo en dos idiomas, entiendo la práctica del comercio transfronterizo y llevo años asesorando a compradores extranjeros, lo que permite considerar juntos los requisitos del Derecho chino y su operativa de compra. Nuestros productos de servicio obtuvieron el 2.º premio (2023) y el 3.er premio (2026) del Concurso de Innovación de la Asociación de Abogados de Shenzhen; los servicios de este catálogo los lidero yo junto con los equipos de marítimo, cumplimiento comercial y propiedad intelectual del despacho.",
     kBadge1: "Despacho recomendado por Chambers / Legal 500", kBadge2: "Licencia PRC n.º 14403201411015550",
     feeEyebrow: "Honorarios", feeTitle: "Modelos de honorarios",
     feeSub: "Todos los presupuestos incluyen impuestos; viajes, notarización, traducción y costes de terceros se reembolsan a precio de coste.",
@@ -154,29 +180,42 @@ const I18N = {
     footDesc: "Wintell & Co (Shenzhen). Servicios legales integrales para compradores internacionales. El contenido de este sitio es solo informativo y no constituye asesoramiento legal.",
     footNav: "Mapa del sitio", footContact: "Contacto",
     footCopy: "Kang Xuesong Team · Wintell & Co (Shenzhen)",
-    footDisclaimer: "Este sitio y su contenido solo sirven como presentación de servicios y no constituyen asesoramiento legal; los derechos y obligaciones se rigen por el contrato firmado."
+    footDisclaimer: "Este sitio y su contenido solo sirven como presentación de servicios y no constituyen asesoramiento legal; los derechos y obligaciones se rigen por el contrato firmado.",
+    painEyebrow: "Su situación real",
+    painTitle: "Ocho cosas que de verdad quitan el sueño a los compradores extranjeros",
+    painSub: "Cada una corresponde a un bloque de servicios concreto: pulse una tarjeta para ir directamente.",
+    painJump: "Ver el servicio relacionado",
+    painMapLead: "Bloque de servicios correspondiente",
+    advEyebrow: "Por qué yo",
+    advTitle: "Cuatro razones para confiarme su asunto legal en China",
+    advSub: "Derecho chino, servicio bilingüe, experiencia real en comercio transfronterizo y clientes como usted: esto define lo que puedo hacer por usted.",
+    gapEyebrow: "Vías de servicio",
+    gapTitle: "Qué cubre cada vía",
+    gapSub: "Hasta dónde puede llegar un asunto de abastecimiento transfronterizo depende de la habilitación profesional y de las exigencias procesales chinas. A continuación, el alcance de las vías habituales y la parte que asumo yo.",
+    gapCant: "Alcance de las vías habituales",
+    gapCan: "Lo que asumo yo"
   },
   fr: {
     pageTitle: "Services Juridiques pour Acheteurs Internationaux en Chine | Kang Xuesong · Wintell & Co Shenzhen",
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Services juridiques transfrontaliers · Shenzhen, Chine",
     navServices: "Services", navAbout: "À propos", navFees: "Honoraires", navContact: "Contact",
-    heroEyebrow: "Catalogue de services juridiques pour acheteurs internationaux",
-    heroTitle1: "Services juridiques pour", heroTitle2: "acheteurs internationaux en Chine",
-    heroSub: "De la due diligence fournisseur aux contrats d'achat, sécurité des paiements, protection de la propriété intellectuelle, conformité commerciale et règlement des litiges — l'équipe Kang Xuesong, appuyée par le réseau national de Wintell & Co, offre un accompagnement juridique complet et bilingue aux acheteurs étrangers.",
-    heroEn: "Kang Xuesong Team · Wintell & Co (Shenzhen) — conseil juridique de confiance pour les acheteurs internationaux.",
+    heroEyebrow: "Exercice du droit en Chine · Bilingue · Commerce transfrontalier",
+    heroTitle1: "Vous achetez en Chine ?", heroTitle2: "Je suis votre avocat en Chine",
+    heroSub: "Je m'appelle Kang Xuesong. J'exerce en Chine depuis 2014 et je dirige chez Wintell & Co (Shenzhen) l'équipe dédiée aux acheteurs étrangers. Je connais le droit chinois, je travaille en chinois et en anglais, et je comprends le fonctionnement réel du commerce transfrontalier : de la due diligence fournisseurs à la sécurité des paiements, en passant par la propriété intellectuelle, la conformité commerciale et le règlement des litiges, je protège votre activité sur le terrain en Chine.",
+    heroEn: "康雪崧律师 · 中国执业律师 · 上海功承瀛泰（深圳）律师事务所",
     btnCatalogue: "Voir les services",
-    heroCardTag: "Pourquoi nous",
-    why1: "Conseil bilingue (chinois et anglais)",
-    why2: "Bureau à Shenzhen, près de Hong Kong (Grande Baie)",
-    why3: "Coordination sur 18 bureaux nationaux",
-    why4: "Réseau associé : HFW (Royaume-Uni) et un cabinet singapourien",
-    why5: "Produits standardisés · honoraires fixes · devis transparents",
-    why6: "Équipes spécialisées maritime / conformité / PI",
+    heroCardTag: "Pourquoi moi",
+    why1: "Exercer en Chine : agir, plaider, saisir et exécuter sur le territoire chinois",
+    why2: "Communication directe en chinois et en anglais, sans traducteur",
+    why3: "Formation financière à l'Université de Hong Kong : une vraie compréhension du commerce et des chaînes d'approvisionnement",
+    why4: "Expérience auprès d'acheteurs étrangers : due diligence avant paiement, recouvrement, dépôts de marque abusifs",
+    why5: "Appuyé par les 18 bureaux nationaux de Wintell & Co et le réseau HFW (Royaume-Uni)",
+    why6: "Produits standardisés · devis écrit avant mission · honoraires transparents",
     tr1s: "", tr2s: "", tr3n: "2",
     tr1: "Bureaux nationaux", tr2: "Professionnels", tr3: "Langues", tr4: "Bureau de Shenzhen depuis",
     cataEyebrow: "Catalogue", cataTitle: "Huit sections couvrant tout le processus d'achat", cataSub: "Un devis écrit est fourni avant toute mission ; les livrables peuvent être remis en anglais.",
-    abEyebrow: "À propos", abTitle: "À propos de nous",
+    abEyebrow: "À propos de moi", abTitle: "À propos de moi",
     abFirmH: "Le cabinet — Wintell & Co",
     abFirmP1: "Wintell & Co est un cabinet national à service complet dont le siège est à Shanghai, créé en 2023 par la fusion de Wintell et Gongcheng. Avec près de 500 professionnels répartis dans 18 bureaux et des associations avec HFW (Royaume-Uni) et un cabinet singapourien, il fournit des services juridiques transfrontaliers intégrés.",
     abFirmP2: "Le cabinet est réputé en droit maritime, règlement transfrontalier des litiges et arbitrage international, finance et assurances, propriété intellectuelle et droit des affaires. Ses dossiers ont été publiés au Bulletin de la Cour suprême populaire et reconnus comme cas typiques de l'initiative « Ceinture et Route ». Il est recommandé par Chambers and Partners, The Legal 500, ALB et China Business Law Journal, et honoré du titre de « Cabinet national d'excellence ».",
@@ -190,8 +229,8 @@ const I18N = {
     kName: "Kang Xuesong", kRole: "Associée, Wintell & Co (Shenzhen) · Cheffe d'équipe",
     kEdu1: "Université Sun Yat-sen", kEdu1b: "Licence en droit",
     kEdu2: "Université de Hong Kong", kEdu2b: "Master en Finance et Gestion d'Investissement",
-    kBio1: "Inscrite au barreau en 2014, Kang Xuesong a une expérience transfrontalière Chine continentale–Hong Kong et sert en deux langues des clients entreprises et particuliers. Elle se concentre sur les dossiers liés à Hong Kong et transfrontaliers, avec une solide expérience en gouvernance d'entreprise, litiges commerciaux et conseil juridique.",
-    kBio2: "Ses produits de service ont obtenu le 2e prix (2023) et le 3e prix (2026) du Concours d'Innovation de l'Association des Avocats de Shenzhen. Les services de ce catalogue sont pilotés par son équipe, en collaboration avec les équipes nationales maritime, conformité commerciale et propriété intellectuelle.",
+    kBio1: "Je m'appelle Kang Xuesong. J'exerce en Chine depuis 2014, au sein de Wintell & Co (Shenzhen), où je dirige l'équipe de services juridiques destinée aux acheteurs étrangers. Ma formation : licence en droit de l'Université Sun Yat-sen et troisième cycle en finance et gestion d'investissement de l'Université de Hong Kong — un double profil juridique et financier. J'accompagne depuis des années des clients nationaux et internationaux en chinois et en anglais, avec une spécialisation sur les dossiers liés à Hong Kong et transfrontaliers.",
+    kBio2: "Je connais le droit chinois, je travaille en deux langues, je maîtrise la pratique du commerce transfrontalier et j'accompagne depuis longtemps des acheteurs étrangers , ce qui permet d'examiner ensemble les exigences du droit chinois et votre organisation d'achat. Nos produits de service ont obtenu le 2e prix (2023) et le 3e prix (2026) du Concours d'Innovation de l'Association des Avocats de Shenzhen ; les services de ce catalogue sont pilotés par moi, avec les équipes maritime, conformité commerciale et PI du cabinet.",
     kBadge1: "Cabinet recommandé Chambers / Legal 500", kBadge2: "Licence PRC n° 14403201411015550",
     feeEyebrow: "Honoraires", feeTitle: "Modèles d'honoraires",
     feeSub: "Tous les devis sont TTC ; frais de déplacement, notarisation, traduction et tiers remboursés au coût.",
@@ -204,29 +243,42 @@ const I18N = {
     footDesc: "Wintell & Co (Shenzhen). Services juridiques complets pour acheteurs internationaux. Le contenu de ce site est informatif et ne constitue pas un avis juridique.",
     footNav: "Plan du site", footContact: "Contact",
     footCopy: "Kang Xuesong Team · Wintell & Co (Shenzhen)",
-    footDisclaimer: "Ce site et son contenu sont uniquement présentés à titre informatif et ne constituent pas un avis juridique ; les droits et obligations sont régis par le contrat signé."
+    footDisclaimer: "Ce site et son contenu sont uniquement présentés à titre informatif et ne constituent pas un avis juridique ; les droits et obligations sont régis par le contrat signé.",
+    painEyebrow: "Votre situation réelle",
+    painTitle: "Huit choses qui empêchent vraiment les acheteurs étrangers de dormir",
+    painSub: "Chacune correspond à un bloc de services précis : cliquez sur une carte pour y accéder.",
+    painJump: "Voir le service concerné",
+    painMapLead: "Bloc de services concerné",
+    advEyebrow: "Pourquoi moi",
+    advTitle: "Quatre raisons de me confier vos affaires juridiques en Chine",
+    advSub: "Droit chinois, prestation bilingue, expérience concrète du commerce transfrontalier et clients comme vous : voilà ce que je peux faire pour vous.",
+    gapEyebrow: "Les voies possibles",
+    gapTitle: "Ce que couvre chaque voie",
+    gapSub: "Jusqu'où peut aller un dossier d'achat transfrontalier dépend de l'inscription au barreau et des exigences procédurales chinoises. Voici le périmètre des voies habituelles, et la part que j'assume.",
+    gapCant: "Périmètre des voies habituelles",
+    gapCan: "Ce que j'assume"
   },
   de: {
     pageTitle: "Rechtsdienstleistungen für internationale Käufer in China | Kang Xuesong · Wintell & Co Shenzhen",
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Grenzüberschreitende Rechtsdienstleistungen · Shenzhen, China",
-    navServices: "Leistungen", navAbout: "Über uns", navFees: "Honorare", navContact: "Kontakt",
-    heroEyebrow: "Rechtsdienstleistungskatalog für internationale Käufer",
-    heroTitle1: "Rechtsdienstleistungen für", heroTitle2: "internationale Käufer in China",
-    heroSub: "Von der Lieferanten-Due-Diligence über Kaufverträge und Zahlungssicherheit bis zu IP-Schutz, Handels-Compliance und Streitbeilegung – das Team Kang Xuesong, gestützt auf das nationale Netz von Wintell & Co, bietet ausländischen Käufern umfassende, zweisprachige Rechtsunterstützung vor Ort.",
-    heroEn: "Kang Xuesong Team · Wintell & Co (Shenzhen) — vertrauenswürdige Rechtsberatung für internationale Käufer.",
+    navServices: "Leistungen", navAbout: "Über mich", navFees: "Honorare", navContact: "Kontakt",
+    heroEyebrow: "Anwaltliche Tätigkeit in China · Zweisprachig · Grenzüberschreitender Handel",
+    heroTitle1: "Sie kaufen in China ein?", heroTitle2: "Ich bin Ihr Anwalt in China",
+    heroSub: "Mein Name ist Kang Xuesong. Ich bin seit 2014 in China anwaltlich tätig und leite bei Wintell & Co (Shenzhen) das Team für ausländische Einkäufer. Ich kenne das chinesische Recht, arbeite auf Chinesisch und Englisch und verstehe, wie grenzüberschreitender Handel tatsächlich abläuft: von der Lieferantenprüfung über Vertragsprüfung und Zahlungssicherheit bis hin zu geistigem Eigentum, Handels-Compliance und Streitbeilegung schütze ich Ihr Geschäft vor Ort in China.",
+    heroEn: "康雪崧律师 · 中国执业律师 · 上海功承瀛泰（深圳）律师事务所",
     btnCatalogue: "Leistungen ansehen",
-    heroCardTag: "Warum wir",
-    why1: "Zweisprachige Beratung (Chinesisch & Englisch)",
-    why2: "Büro in Shenzhen, nahe Hongkong (Greater Bay Area)",
-    why3: "Koordinierte Leistung über 18 nationale Büros",
-    why4: "Assoziierte Partner: HFW (UK) und eine singapurische Kanzlei",
-    why5: "Standardisierte Produkte · Festpreise · transparente Angebote",
-    why6: "Spezialteams für Seehandel / Compliance / IP",
+    heroCardTag: "Warum ich",
+    why1: "In China zugelassen: klagen, verhandeln, sichern und vollstrecken im Inland",
+    why2: "Direkte Kommunikation auf Chinesisch und Englisch — ohne Übersetzer",
+    why3: "Finanzausbildung an der Universität Hongkong: Handelspraxis und Lieferketten sind mir vertraut",
+    why4: "Erfahrung mit ausländischen Einkäufern: Due Diligence vor Zahlung, Forderungseinzug, Markenpiraterie",
+    why5: "Gestützt auf 18 nationale Büros von Wintell & Co und das HFW-Netzwerk (UK)",
+    why6: "Standardisierte Produkte · schriftliches Angebot vor Beauftragung · transparente Honorare",
     tr1s: "", tr2s: "", tr3n: "2",
     tr1: "Nationale Büros", tr2: "Fachleute", tr3: "Sprachen", tr4: "Büro Shenzhen seit",
     cataEyebrow: "Leistungskatalog", cataTitle: "Acht Bereiche für den gesamten Einkaufsprozess", cataSub: "Für jede Leistung erhalten Sie vor Beauftragung ein schriftliches Angebot; Ergebnisse können auf Englisch geliefert werden.",
-    abEyebrow: "Über uns", abTitle: "Über uns",
+    abEyebrow: "Über mich", abTitle: "Über mich",
     abFirmH: "Die Kanzlei — Wintell & Co",
     abFirmP1: "Wintell & Co ist eine nationale Full-Service-Kanzlei mit Hauptsitz in Shanghai, gegründet 2023 durch die Fusion von Wintell und Gongcheng. Mit fast 500 Fachleuten in 18 Büros und Partnerschaften mit HFW (UK) und einer singapurischen Kanzlei bietet sie integrierte grenzüberschreitende Rechtsdienstleistungen.",
     abFirmP2: "Die Kanzlei ist bekannt für Seehandelsrecht, grenzüberschreitende Streitbeilegung und internationale Schiedsgerichtsbarkeit, Finanzen & Versicherungen, IP sowie Gesellschafts- und Handelsrecht. Ihre Fälle wurden im Amtsblatt des Obersten Volksgerichts veröffentlicht und als typische Fälle der Belt-and-Road-Initiative anerkannt. Sie wird von Chambers and Partners, The Legal 500, ALB und China Business Law Journal empfohlen und als „Nationale Exzellenz-Kanzlei“ ausgezeichnet.",
@@ -240,8 +292,8 @@ const I18N = {
     kName: "Kang Xuesong", kRole: "Partnerin, Wintell & Co (Shenzhen) · Teamleiterin",
     kEdu1: "Sun-Yat-sen-Universität", kEdu1b: "LL.B., Rechtswissenschaften",
     kEdu2: "Universität Hongkong", kEdu2b: "Postgraduales Studium Finanzen & Investmentmanagement",
-    kBio1: "Seit 2014 zugelassen, verfügt Kang Xuesong über grenzüberschreitende Erfahrung zwischen dem chinesischen Festland und Hongkong und betreut inländische wie ausländische Firmen- und Privatkunden zweisprachig. Ihr Schwerpunkt liegt auf Hongkong-bezogenen und grenzüberschreitenden Mandaten mit solider Erfahrung in Corporate Governance, Wirtschaftsstreitigkeiten und Unternehmensberatung.",
-    kBio2: "Ihre Serviceprodukte gewannen den 2. Preis (2023) und 3. Preis (2026) des Innovationswettbewerbs der Shenzhener Anwaltsvereinigung. Die Leistungen dieses Katalogs werden von ihrem Team geleitet und gemeinsam mit den nationalen Teams für Seehandel, Handels-Compliance und IP erbracht.",
+    kBio1: "Mein Name ist Kang Xuesong. Ich bin seit 2014 in China anwaltlich tätig, bei Wintell & Co (Shenzhen), wo ich das Team für Rechtsdienstleistungen für ausländische Einkäufer leite. Meine Ausbildung: LL.B. der Sun-Yat-sen-Universität und Postgraduiertenabschluss in Finanz- und Investmentmanagement der Universität Hongkong — ein kombiniertes juristisches und finanzielles Profil. Seit Jahren betreue ich nationale und internationale Mandanten auf Chinesisch und Englisch, mit Schwerpunkt auf Hongkong-bezogenen und grenzüberschreitenden Mandaten.",
+    kBio2: "Ich kenne das chinesische Recht, arbeite zweisprachig, verstehe die Praxis des grenzüberschreitenden Handels und habe lange ausländische Einkäufer betreut, sodass chinesische Anforderungen und Ihre Beschaffungsabläufe zusammen betrachtet werden. Unsere Serviceprodukte gewannen den 2. Preis (2023) und 3. Preis (2026) des Innovationswettbewerbs der Shenzhener Anwaltsvereinigung; die Leistungen dieses Katalogs leite ich gemeinsam mit den Teams für Seehandel, Handels-Compliance und IP der Kanzlei.",
     kBadge1: "Von Chambers / Legal 500 empfohlene Kanzlei", kBadge2: "PRC-Zulassung Nr. 14403201411015550",
     feeEyebrow: "Honorare", feeTitle: "Honorarmodelle",
     feeSub: "Alle Angebote inklusive Steuern; Reise-, Notar-, Übersetzungs- und Drittkosten werden zum Selbstkostenpreis erstattet.",
@@ -254,29 +306,42 @@ const I18N = {
     footDesc: "Wintell & Co (Shenzhen). Umfassende Rechtsdienstleistungen für internationale Käufer. Der Inhalt dieser Website dient nur der allgemeinen Information und stellt keine Rechtsberatung dar.",
     footNav: "Sitemap", footContact: "Kontakt",
     footCopy: "Kang Xuesong Team · Wintell & Co (Shenzhen)",
-    footDisclaimer: "Diese Website und ihre Inhalte dienen nur der Leistungsvorstellung und stellen keine Rechtsberatung dar; Rechte und Pflichten richten sich nach dem unterzeichneten Vertrag."
+    footDisclaimer: "Diese Website und ihre Inhalte dienen nur der Leistungsvorstellung und stellen keine Rechtsberatung dar; Rechte und Pflichten richten sich nach dem unterzeichneten Vertrag.",
+    painEyebrow: "Ihre reale Lage",
+    painTitle: "Acht Dinge, die ausländischen Einkäufern wirklich den Schlaf rauben",
+    painSub: "Jeder Punkt entspricht einem konkreten Leistungsblock — Karte anklicken und direkt springen.",
+    painJump: "Passende Leistung ansehen",
+    painMapLead: "Zugehöriger Leistungsblock",
+    advEyebrow: "Warum ich",
+    advTitle: "Vier Gründe, mir Ihre China-Rechtsangelegenheiten anzuvertrauen",
+    advSub: "Chinesisches Recht, zweisprachige Leistung, praktische Erfahrung im grenzüberschreitenden Handel und Kunden wie Sie — das bestimmt, was ich für Sie tun kann.",
+    gapEyebrow: "Wege der Mandatsführung",
+    gapTitle: "Was jeder Weg abdeckt",
+    gapSub: "Wie weit ein grenzüberschreitender Beschaffungsfall kommt, hängt von der Zulassung und den chinesischen Verfahrensvorgaben ab. Hier stehen der Umfang der üblichen Wege und der Teil, den ich übernehme.",
+    gapCant: "Umfang der üblichen Wege",
+    gapCan: "Was ich übernehme"
   },
   ar: {
     pageTitle: "خدمات قانونية للمشترين الأجانب في الصين | كانغ شيويه سونغ · وينتل آند كو شنتشن",
     brandName: "فريق كانغ شيويه سونغ<b> · وينتل آند كو</b>",
     brandSub: "خدمات قانونية عابرة للحدود · شنتشن، الصين",
-    navServices: "الخدمات", navAbout: "من نحن", navFees: "الأتعاب", navContact: "اتصل بنا",
-    heroEyebrow: "كتالوج الخدمات القانونية للمشترين الأجانب",
-    heroTitle1: "خدمات قانونية", heroTitle2: "للمشترين الأجانب في الصين",
-    heroSub: "من العناية الواجبة بالموردين إلى عقود الشراء، وأمان المدفوعات، وحماية الملكية الفكرية، والامتثال التجاري، وحل النزاعات — يقدم فريق كانغ شيويه سونغ، بدعم شبكة وينتل آند كو الوطنية، دعماً قانونياً شاملاً وثنائي اللغة للمشترين الأجانب.",
-    heroEn: "فريق كانغ شيويه سونغ · وينتل آند كو (شنتشن) — مستشارون قانونيون موثوقون للمشترين الأجانب من الصين.",
+    navServices: "الخدمات", navAbout: "من أنا", navFees: "الأتعاب", navContact: "اتصل بنا",
+    heroEyebrow: "محامٍ مرخّص في الصين · ثنائي اللغة · التجارة العابرة للحدود",
+    heroTitle1: "هل تشتري من الصين؟", heroTitle2: "أنا محاميتك في الصين",
+    heroSub: "أنا كانغ شيوه سونغ، محامٍ مرخّص في الصين وشريك في وينتل آند كو (شنتشن). أعرف القانون الصيني، وأعمل بالصينية والإنجليزية، وأفهم كيف تعمل التجارة العابرة للحدود فعليًا. أخدم المشترين الأجانب منذ سنوات — من العناية الواجبة بالموردين ومراجعة العقود وأمان المدفوعات إلى الملكية الفكرية والامتثال التجاري وحل النزاعات — لحماية أعمالك على الأرض في الصين.",
+    heroEn: "康雪崧律师 · 中国执业律师 · 上海功承瀛泰（深圳）律师事务所",
     btnCatalogue: "تصفح الخدمات",
-    heroCardTag: "لماذا نحن",
-    why1: "استشارات ثنائية اللغة (الصينية والإنجليزية)",
-    why2: "مكتب في شنتشن بجوار هونغ كونغ (منطقة الخليج الكبرى)",
-    why3: "تنسيق التسليم عبر 18 مكتباً وطنياً",
-    why4: "شبكة منتسبة: HFW (بريطانيا) ومكتب سنغافوري",
-    why5: "منتجات موحدة · أتعاب ثابتة · عروض أسعار شفافة",
-    why6: "فرق متخصصة في البحري / الامتثال التجاري / الملكية الفكرية",
+    heroCardTag: "لماذا أنا",
+    why1: "محامية مرخّصة في الصين: رفع الدعوى والمرافعة والحجز والتنفيذ داخل الصين",
+    why2: "تواصل مباشر ثنائي اللغة دون وسيط مترجم",
+    why3: "خلفية مالية من جامعة هونغ كونغ: يفهم التجارة وسلسلة التوريد",
+    why4: "خدم مشترين أجانب: الفحص قبل الدفع، وتحصيل المدفوعات، وتسجيل العلامات بسوء نية",
+    why5: "بدعم 18 مكتبًا وطنيًا لوينتل آند كو وشبكة HFW (بريطانيا)",
+    why6: "منتجات موحدة · عرض سعر مكتوب قبل التعاقد · أتعاب شفافة",
     tr1s: "", tr2s: "", tr3n: "2",
     tr1: "مكتباً وطنياً", tr2: "متخصصاً", tr3: "لغتان", tr4: "مكتب شنتشن منذ",
     cataEyebrow: "كتالوج الخدمات", cataTitle: "ثمانية أقسام تغطي عملية الشراء كاملة", cataSub: "يُقدَّم عرض أسعار كتابي قبل التعاقد لكل خدمة؛ ويمكن توفير المخرجات باللغة الإنجليزية.",
-    abEyebrow: "من نحن", abTitle: "من نحن",
+    abEyebrow: "من أنا", abTitle: "من أنا",
     abFirmH: "المكتب — وينتل آند كو",
     abFirmP1: "وينتل آند كو مكتب محاماة وطني شامل يقع مقره الرئيسي في شنغهاي، تأسس عام 2023 من اندماج وينتل وغونغتشنغ. وبفضل ما يقارب 500 متخصص في 18 مكتباً وطنياً، وشراكاته مع HFW (بريطانيا) ومكتب سنغافوري، يقدم خدمات قانونية متكاملة عابرة للحدود.",
     abFirmP2: "يشتهر المكتب بالقانون البحري، وحل النزاعات التجارية العابرة للحدود والتحكيم الدولي، والتمويل والتأمين، والملكية الفكرية، وقانون الشركات والتجارة. نُشرت قضاياه في نشرة المحكمة الشعبية العليا وأُدرجت ضمن القضايا النموذجية لمبادرة الحزام والطريق. وهو موصى به من Chambers and Partners وThe Legal 500 وALB وChina Business Law Journal، وحاصل على لقب «مكتب المحاماة الوطني المتميز».",
@@ -290,8 +355,8 @@ const I18N = {
     kName: "كانغ شيويه سونغ", kRole: "شريكة، وينتل آند كو (شنتشن) · قائدة الفريق",
     kEdu1: "جامعة صن يات سين", kEdu1b: "إجازة في القانون",
     kEdu2: "جامعة هونغ كونغ", kEdu2b: "دراسات عليا في التمويل وإدارة الاستثمار",
-    kBio1: "مرخصة منذ 2014، تملك كانغ شيويه سونغ خبرة عابرة للحدود بين الصين القارية وهونغ كونغ، وتخدم عملاء من الشركات والأفراد محلياً ودولياً بلغتين. تركز على القضايا المتعلقة بهونغ كونغ والعابرة للحدود، مع خبرة راسخة في حوكمة الشركات والنزاعات التجارية والاستشارات القانونية للشركات.",
-    kBio2: "حازت منتجاتها الخدمية على الجائزة الثانية (2023) والثالثة (2026) في مسابقة الابتكار لجمعية محامي شنتشن. تُدار خدمات هذا الكتالوج بواسطة فريقها، بالتعاون مع فرق المكتب الوطنية في المجال البحري والامتثال التجاري والملكية الفكرية.",
+    kBio1: "اسمي كانغ شيويه سونغ. أعمل بالمحاماة في الصين منذ 2014، في مكتب وينتل آند كو (شنتشن)، حيث أدير فريق الخدمات القانونية المخصص للمشترين الأجانب. تكويني: إجازة في القانون من جامعة صن يات سين، ودراسات عليا في التمويل وإدارة الاستثمار من جامعة هونغ كونغ — مزيج من التأهيل القانوني والمالي. أخدم منذ سنوات عملاء محليين ودوليين بالصينية والإنجليزية، مع تركيز على الملفات المتعلقة بهونغ كونغ والملفات العابرة للحدود.",
+    kBio2: "أعرف القانون الصيني، وأعمل بلغتين، وأفهم ممارسة التجارة العابرة للحدود، وأخدم المشترين الأجانب منذ سنوات، بما يسمح بمراعاة متطلبات القانون الصيني وترتيبات شرائك معًا. حازت منتجاتنا الخدمية على الجائزة الثانية (2023) والثالثة (2026) في مسابقة الابتكار لجمعية محامي شنتشن؛ وأتولّى قيادة خدمات هذا الكتالوج بالتعاون مع فرق المكتب في القانون البحري والامتثال التجاري والملكية الفكرية.",
     kBadge1: "مكتب موصى به من Chambers / Legal 500", kBadge2: "رقم الترخيص الصيني 14403201411015550",
     feeEyebrow: "الأتعاب", feeTitle: "نماذج الأتعاب",
     feeSub: "جميع العروض شاملة الضرائب؛ وتُسدَّد تكاليف السفر والتوثيق والترجمة والأطراف الثالثة بالتكلفة الفعلية.",
@@ -304,7 +369,20 @@ const I18N = {
     footDesc: "وينتل آند كو (شنتشن). خدمات قانونية شاملة للمشترين الأجانب من الصين. محتوى هذا الموقع لأغراض إعلامية عامة فقط ولا يشكل استشارة قانونية.",
     footNav: "خريطة الموقع", footContact: "اتصل بنا",
     footCopy: "فريق كانغ شيويه سونغ · وينتل آند كو (شنتشن)",
-    footDisclaimer: "هذا الموقع ومحتواه لأغراض التعريف بالخدمات فقط ولا يشكلان استشارة قانونية؛ وتُحدَّد الحقوق والالتزامات بموجب العقد الموقع."
+    footDisclaimer: "هذا الموقع ومحتواه لأغراض التعريف بالخدمات فقط ولا يشكلان استشارة قانونية؛ وتُحدَّد الحقوق والالتزامات بموجب العقد الموقع.",
+    painEyebrow: "وضعك الحقيقي",
+    painTitle: "ثمانية أمور تحرم المشترين الأجانب فعلاً من النوم",
+    painSub: "كل بند يقابل قسم خدمات محددًا — اضغط البطاقة للانتقال إليه مباشرة.",
+    painJump: "اطّلع على الخدمة المرتبطة",
+    painMapLead: "قسم الخدمة المقابل",
+    advEyebrow: "لماذا أنا",
+    advTitle: "أربعة أسباب تجعلك تأتمنني على شؤونك القانونية في الصين",
+    advSub: "القانون الصيني، وخدمة ثنائية اللغة، وخبرة عملية في التجارة العابرة للحدود، وعملاء مثلك — هذا ما يحدد ما أستطيع تقديمه لك.",
+    gapEyebrow: "مسارات الخدمة",
+    gapTitle: "ما يغطيه كل مسار",
+    gapSub: "إلى أي مدى يمكن دفع مسألة شراء عابرة للحدود يعتمد على الترخيص ومتطلبات الإجراءات الصينية. وفيما يلي نطاق المسارات المعتادة، والجزء الذي أتولاه أنا.",
+    gapCant: "نطاق المسارات المعتادة",
+    gapCan: "ما أتولاه أنا"
   }
 };
 
@@ -508,6 +586,458 @@ const COL_HEAD = {
 };
 
 /* =========================================================
+   痛点数据：8 条真实痛点 ↔ 8 大服务板块（一一对应）
+   ========================================================= */
+const PAINS = [
+  {
+    cat: "pre", icon: "&#128269;",
+    pain: {
+      zh: "供应商看着很正规，可它到底有没有资质、有没有产能、有没有正在打的官司？我在国外根本查不到。",
+      en: "The supplier looks legitimate — but does it have the licences, the real capacity, any lawsuits? None of that is searchable from abroad.",
+      es: "El proveedor parece formal, pero ¿tiene licencias, capacidad real, litigios pendientes? Nada de eso se puede consultar desde el extranjero.",
+      fr: "Le fournisseur semble fiable — mais a-t-il les licences, la capacité réelle, des contentieux ? Rien de tout cela n'est consultable depuis l'étranger.",
+      de: "Der Lieferant wirkt seriös — doch hat er Lizenzen, echte Kapazität, laufende Verfahren? Aus dem Ausland ist davon nichts prüfbar.",
+      ar: "يبدو المورّد موثوقًا — لكن هل يملك التراخيص والطاقة الإنتاجية؟ وهل عليه قضايا؟ لا يمكن التحقق من ذلك من الخارج."
+    },
+    fix: {
+      zh: "我在中国境内调取工商登记、股权结构、不动产、涉诉与被执行信息，必要时实地或视频核厂，出具可作证据使用的尽调报告——付款之前，先把对方看清楚。",
+      en: "I retrieve corporate registration, shareholding, property, litigation and enforcement records inside China, verify the factory on site or by video, and deliver a due-diligence report usable as evidence — know exactly who you are paying, before you pay.",
+      es: "Obtengo el registro mercantil, la estructura societaria, inmuebles, litigios y embargos dentro de China, verifico la fábrica in situ o por vídeo y entrego un informe de diligencia utilizable como prueba: sepa a quién paga antes de pagar.",
+      fr: "Je récupère en Chine le registre du commerce, l'actionnariat, les biens immobiliers, les litiges et les saisies, je vérifie l'usine sur place ou en visio, et je remets un rapport de due diligence utilisable comme preuve : sachez à qui vous payez avant de payer.",
+      de: "Ich beschaffe in China Handelsregister-, Gesellschafter-, Immobilien-, Prozess- und Vollstreckungsdaten, prüfe das Werk vor Ort oder per Video und liefere einen als Beweis verwertbaren Due-Diligence-Bericht — wissen Sie, an wen Sie zahlen, bevor Sie zahlen.",
+      ar: "أستخرج داخل الصين السجل التجاري وهيكل الملكية والعقارات والقضايا وسجلات التنفيذ، وأتحقق من المصنع ميدانيًا أو بالفيديو، وأسلّم تقرير فحص يمكن استخدامه كدليل — اعرف لمن تدفع قبل أن تدفع."
+    }
+  },
+  {
+    cat: "perf", icon: "&#128176;",
+    pain: {
+      zh: "预付款付了，货却一拖再拖；或者货到港才发现不对板——尾款到底该不该付？",
+      en: "You paid the deposit and the goods keep slipping — or they arrive and don't match the spec. Should you pay the balance?",
+      es: "Pagó el anticipo y la mercancía se retrasa; o llega y no coincide con lo pactado. ¿Debe pagar el saldo?",
+      fr: "L'acompte est versé et la marchandise tarde — ou elle arrive non conforme. Faut-il payer le solde ?",
+      de: "Anzahlung geleistet, Ware verzögert sich — oder kommt nicht spezifikationsgemäß. Restzahlung leisten?",
+      ar: "دفعت الدفعة المقدمة وتأخرت البضاعة، أو وصلت مخالفة للمواصفات — فهل تدفع الباقي؟"
+    },
+    fix: {
+      zh: "我把验收标准、违约后果与付款节点写进合同，用质保金、担保与所有权保留把风险压到最低；一旦违约，第一时间发律师函、申请财产保全。",
+      en: "I build acceptance standards, default consequences and payment milestones into the contract, and use retention, security and retention of title to cap your risk. On default: formal demand and asset preservation, immediately.",
+      es: "Incorporo al contrato los criterios de aceptación, las consecuencias del incumplimiento y los hitos de pago, y uso retenciones, garantías y reserva de dominio para limitar el riesgo. Ante incumplimiento: requerimiento formal y embargo de bienes de inmediato.",
+      fr: "J'intègre au contrat les critères de conformité, les conséquences de l'inexécution et les jalons de paiement, et j'utilise retenues, garanties et réserve de propriété pour limiter le risque. En cas de manquement : mise en demeure et saisie conservatoire immédiates.",
+      de: "Ich verankere Abnahmekriterien, Verzugsfolgen und Zahlungsmeilensteine im Vertrag und begrenze Ihr Risiko mit Einbehalten, Sicherheiten und Eigentumsvorbehalt. Bei Verzug folgen sofort Abmahnung und Vermögenssicherung.",
+      ar: "أُدرج في العقد معايير القبول ونتائج الإخلال ومراحل الدفع، وأستخدم المحتجزات والضمانات والاحتفاظ بالملكية لتقليل المخاطر، وعند الإخلال يُرسل إنذار رسمي ويُطلب الحجز على الأموال فورًا."
+    }
+  },
+  {
+    cat: "ip", icon: "&#128737;",
+    pain: {
+      zh: "品牌、图纸、模具在中国被抄，商标还被别人抢先注册——展会上看到山寨货却毫无办法。",
+      en: "Your brand, drawings and tooling get copied in China — and someone else registered your trademark first. You see clones at trade fairs and feel powerless.",
+      es: "Copian su marca, planos y moldes en China — y otro registró su marca primero. Ve imitaciones en ferias y no puede hacer nada.",
+      fr: "Votre marque, vos plans et vos moules sont copiés en Chine — et un tiers a déposé votre marque en premier. Vous voyez des contrefaçons en salon sans pouvoir réagir.",
+      de: "Marke, Zeichnungen und Werkzeuge werden in China kopiert — und ein Dritter hat Ihre Marke zuerst angemeldet. Auf Messen sehen Sie Plagiate und sind machtlos.",
+      ar: "تُنسخ علامتك ورسوماتك وقوالبك في الصين، ويسجّل غيرك علامتك التجارية أولًا، فترى التقليد في المعارض بلا حيلة."
+    },
+    fix: {
+      zh: "商标与专利布局、抢注应对与无效宣告、侵权投诉与诉讼、海关知识产权备案——把你的设计和品牌在中国真正锁住。",
+      en: "Trademark and patent strategy, action against bad-faith filings, infringement complaints and litigation, customs IP recordal — lock your brand and designs down in China.",
+      es: "Estrategia de marcas y patentes, oposición frente a registros de mala fe, denuncias y litigios por infracción, registro aduanero de PI: asegure su marca y sus diseños en China.",
+      fr: "Stratégie marques et brevets, action contre les dépôts de mauvaise foi, plaintes et contentieux en contrefaçon, enregistrement douanier des PI : verrouillez votre marque et vos designs en Chine.",
+      de: "Marken- und Patentstrategie, Vorgehen gegen bösgläubige Anmeldungen, Abmahnung und Verletzungsklage, Zollregistrierung von Schutzrechten — sichern Sie Marke und Design in China.",
+      ar: "استراتيجية العلامات والبراءات، والتعامل مع التسجيلات سيئة النية، وشكاوى الانتهاك والدعاوى، وتسجيل حقوق الملكية لدى الجمارك — أوقف التقليد في الصين."
+    }
+  },
+  {
+    cat: "tc", icon: "&#128678;",
+    pain: {
+      zh: "海关突然扣货、被质疑原产地规避关税，或者遇上反倾销调查——这些规则我完全没接触过。",
+      en: "Customs seizes your shipment, questions the origin to avoid duties, or an anti-dumping investigation lands — rules you have never dealt with.",
+      es: "La aduana retiene su carga, cuestiona el origen para eludir aranceles o se abre una investigación antidumping: normas que desconoce por completo.",
+      fr: "La douane bloque votre cargaison, conteste l'origine pour éluder les droits, ou une enquête antidumping est ouverte — des règles que vous ne maîtrisez pas.",
+      de: "Der Zoll stoppt Ihre Sendung, bezweifelt die Ursprungsangabe oder eine Antidumping-Untersuchung beginnt — Regeln, die Sie nicht kennen.",
+      ar: "تحتجز الجمارك شحنتك أو تشكك في المنشأ لتجنب الرسوم، أو يبدأ تحقيق مكافحة الإغراق — قواعد لا تعرفها."
+    },
+    fix: {
+      zh: "原产地与 HS 编码审查、进出口合规体检、贸易救济调查应对、关税筹划——让货顺利放行，把调查和罚款挡在前面。",
+      en: "Origin and HS-code review, import/export compliance health-check, trade-remedy defence, duty planning — keep goods moving and stay ahead of investigations and penalties.",
+      es: "Revisión de origen y código HS, auditoría de cumplimiento de importación/exportación, defensa en medidas comerciales y planificación arancelaria: despacho ágil, sin sobresaltos.",
+      fr: "Revue de l'origine et du code SH, audit de conformité import/export, défense en mesures de défense commerciale et optimisation tarifaire : dédouanement fluide, enquêtes et amendes anticipées.",
+      de: "Ursprungs- und HS-Code-Prüfung, Import/Export-Compliance-Audit, Verteidigung in Handelsschutzverfahren, Zollplanung — Ware läuft, Untersuchungen und Bußgelder bleiben vor der Tür.",
+      ar: "مراجعة المنشأ ورمز HS، وتدقيق الامتثال للاستيراد والتصدير، والدفاع في إجراءات الحماية التجارية، وتخطيط الرسوم — لتمرّ البضاعة ويتجنّب التحقيقات والغرامات."
+    }
+  },
+  {
+    cat: "mar", icon: "&#128674;",
+    pain: {
+      zh: "货在海上出事：延误、货损、无单放货，甚至提单是假的——我该找谁说理？",
+      en: "Trouble at sea: delay, cargo damage, delivery without a bill of lading — or the B/L itself is forged. Who do you claim against?",
+      es: "Problemas en el mar: retraso, daños, entrega sin conocimiento de embarque — o el propio B/L es falso. ¿Contra quién reclama?",
+      fr: "Avarie en mer : retard, dommage, livraison sans connaissement — ou connaissement falsifié. Contre qui agir ?",
+      de: "Ärger auf See: Verzug, Ladungsschaden, Auslieferung ohne Konnossement — oder ein gefälschtes B/L. Gegen wen klagen?",
+      ar: "مشكلة في البحر: تأخير أو تلف أو تسليم دون بوليصة شحن — أو بوليصة مزوّرة. ضد من تطالب؟"
+    },
+    fix: {
+      zh: "提单与租约审查、货损货差索赔、无单放货追责、扣船与海事保全——联合全所海商海事团队共同处理。",
+      en: "B/L and charterparty review, cargo loss and shortage claims, liability for delivery without a B/L, ship arrest and maritime preservation — handled with the firm's dedicated maritime team.",
+      es: "Revisión de B/L y fletamentos, reclamaciones por pérdida o faltante, responsabilidad por entrega sin B/L, embargo de buques y medidas cautelares marítimas, con el equipo marítimo del despacho.",
+      fr: "Revue des connaissements et chartes-parties, réclamations pour pertes et manquants, responsabilité pour livraison sans connaissement, saisie de navire et mesures conservatoires, avec l'équipe maritime du cabinet.",
+      de: "Prüfung von Konnossement und Chartervertrag, Schadens- und Fehlmengenansprüche, Haftung bei Auslieferung ohne B/L, Schiffsarrest und seerechtliche Sicherung — mit dem Schifffahrtsteam der Kanzlei.",
+      ar: "مراجعة بوالص الشحن وعقود الإيجار، ومطالبات التلف والنقص، والمسؤولية عن التسليم دون بوليصة، وتوقيف السفن والتحفظ البحري — بالتعاون مع فريق القانون البحري."
+    }
+  },
+  {
+    cat: "dr", icon: "&#9878;",
+    pain: {
+      zh: "真的闹翻了，中国的法院和仲裁我完全不熟，语言不通、也没人可信——最怕赢了官司还是拿不到钱。",
+      en: "It becomes a real dispute — you don't know China's courts or arbitration, the language, or whom to trust. Worst of all: winning but never getting paid.",
+      es: "Estalla el conflicto y no conoce los tribunales ni el arbitraje en China, ni el idioma, ni en quién confiar. Y lo peor: ganar sin cobrar.",
+      fr: "Le litige éclate : vous ne connaissez ni les tribunaux ni l'arbitrage en Chine, ni la langue, ni à qui vous fier. Pire : gagner sans être payé.",
+      de: "Es kommt zum Streit — Sie kennen weder Gerichte noch Schiedsverfahren in China, nicht die Sprache, nicht die Menschen. Und: gewinnen, aber nie Geld sehen.",
+      ar: "يتحول الأمر إلى نزاع حقيقي ولا تعرف المحاكم الصينية ولا التحكيم ولا اللغة ولا من تثق به، والأسوأ أن تكسب القضية دون أن تحصّل أموالك."
+    },
+    fix: {
+      zh: "诉前与诉中财产保全、诉讼与仲裁代理、判决与裁决的承认与执行——从立案到执行全程由我替你跑，你不需要飞到中国。",
+      en: "Pre- and mid-action asset preservation, litigation and arbitration representation, recognition and enforcement of judgments and awards — I run it from filing to enforcement; you don't need to fly to China.",
+      es: "Medidas cautelares previas y durante el proceso, representación en litigios y arbitrajes, reconocimiento y ejecución de sentencias y laudos: de la demanda a la ejecución, sin viajar a China.",
+      fr: "Saisies conservatoires avant et pendant l'instance, représentation en contentieux et arbitrage, reconnaissance et exécution des jugements et sentences : de la requête à l'exécution, sans venir en Chine.",
+      de: "Vermögenssicherung vor und während des Verfahrens, Prozess- und Schiedsvertretung, Anerkennung und Vollstreckung von Urteilen und Schiedssprüchen — ich führe es von der Klage bis zur Vollstreckung; Sie müssen nicht nach China reisen.",
+      ar: "الحجز التحفظي قبل الدعوى وأثناءها، والتمثيل في التقاضي والتحكيم، والاعتراف بالأحكام والقرارات وتنفيذها — أتولّى الأمر من رفع الدعوى حتى التنفيذ دون حاجة لسفرك إلى الصين."
+    }
+  },
+  {
+    cat: "fdi", icon: "&#127970;",
+    pain: {
+      zh: "想在中国设立公司、设厂或找合资伙伴，但从准入政策到落地流程，我不知道从哪一步开始。",
+      en: "You want to set up a company, a plant or a joint venture in China — but from market-access rules to the actual process, you don't know where to start.",
+      es: "Quiere crear una empresa, una planta o una joint venture en China, pero no sabe por dónde empezar.",
+      fr: "Vous voulez créer une société, une usine ou une coentreprise en Chine, mais ne savez pas par où commencer.",
+      de: "Sie möchten in China eine Firma, ein Werk oder ein Joint Venture gründen — wissen aber nicht, wo anfangen.",
+      ar: "تريد تأسيس شركة أو مصنع أو مشروع مشترك في الصين، لكنك لا تعرف من أين تبدأ."
+    },
+    fix: {
+      zh: "外资准入评估、公司设立与股权架构、合资谈判与全套文件、持续合规顾问——从第一天起就把架构搭对。",
+      en: "Foreign-investment access assessment, entity set-up and shareholding structure, JV negotiation and full documentation, ongoing compliance counsel — get the structure right from day one.",
+      es: "Evaluación de acceso a la inversión extranjera, constitución y estructura societaria, negociación y documentación de la JV, asesoría de cumplimiento continua: la estructura correcta desde el primer día.",
+      fr: "Évaluation de l'accès à l'investissement étranger, constitution et structuration, négociation et documentation de la JV, conformité continue : une structure juste dès le premier jour.",
+      de: "Prüfung des Marktzugangs, Gründung und Beteiligungsstruktur, JV-Verhandlung und komplette Dokumentation, laufende Compliance-Beratung — von Tag eins an richtig aufgesetzt.",
+      ar: "تقييم دخول الاستثمار الأجنبي، والتأسيس وهيكل الملكية، والتفاوض على المشروع المشترك ووثائقه الكاملة، واستشارات الامتثال المستمرة — هيكل صحيح من اليوم الأول."
+    }
+  },
+  {
+    cat: "spc", icon: "&#128209;",
+    pain: {
+      zh: "产品要进中国或从中国出口，认证、公证、领事认证一堆文件，我搞不清需要哪些、怎么办。",
+      en: "Products entering or leaving China need certifications, notarisation and legalisation — you can't tell which documents apply or how to obtain them.",
+      es: "Los productos que entran o salen de China exigen certificaciones, notarización y legalización: no sabe qué documentos aplican ni cómo obtenerlos.",
+      fr: "Les produits entrants ou sortants de Chine exigent certifications, notarisation et légalisation — vous ignorez quels documents s'appliquent et comment les obtenir.",
+      de: "Produkte für oder aus China brauchen Zertifizierungen, Notar- und Konsularbeglaubigungen — Sie wissen nicht, welche Unterlagen gelten und wie Sie sie bekommen.",
+      ar: "تحتاج المنتجات الداخلة أو الخارجة من الصين إلى شهادات وتصديقات — ولا تعرف أي مستندات تلزمك وكيف تحصل عليها."
+    },
+    fix: {
+      zh: "产品认证与合规咨询、文件公证与领事认证、专项法律意见书——需要什么、多久出、多少费用，一次讲清楚。",
+      en: "Product certification and compliance advice, notarisation and consular legalisation, specialist legal opinions — what's needed, how long it takes, what it costs, explained up front.",
+      es: "Asesoría en certificación y cumplimiento, notarización y legalización consular, informes jurídicos especializados: qué se necesita, en cuánto tiempo y a qué coste, todo claro desde el inicio.",
+      fr: "Conseil en certification et conformité, notarisation et légalisation consulaire, consultations juridiques spécialisées : ce qu'il faut, en combien de temps, à quel coût — expliqué d'emblée.",
+      de: "Zertifizierungs- und Compliance-Beratung, Notar- und Konsularbeglaubigung, spezialisierte Rechtsgutachten — was nötig ist, wie lange es dauert, was es kostet, von Anfang an erklärt.",
+      ar: "استشارات الشهادات والامتثال، والتصديق لدى كاتب العدل والقنصلية، والآراء القانونية المتخصصة — ما يلزم وكم يستغرق وكم يكلف، بوضوح من البداية."
+    }
+  }
+];
+
+/* =========================================================
+   四大优势：懂中国法律 · 中英双语 · 熟悉跨境贸易实操 · 同类外商客户经验
+   ========================================================= */
+const ADV = [
+  {
+    icon: "&#9878;",
+    t: {
+      zh: "中国执业律师，可在中国境内实际办案", en: "A China-qualified lawyer who can act on the ground",
+      es: "Con licencia para ejercer en China: actuar dentro del país", fr: "Exercer en Chine : agir directement sur le terrain",
+      de: "In China zugelassen: vor Ort handeln können", ar: "ممارسة المحاماة في الصين: القدرة على التحرّك ميدانيًا"
+    },
+    d: {
+      zh: "我持有中国律师执业证（执业证号 14403201411015550），可以在中国境内立案、出庭、调查取证、申请财产保全与强制执行。依照中国法律，这几项程序须由中国执业律师在中国境内完成。",
+      en: "I hold a PRC lawyer's licence (No. 14403201411015550) and can file cases, appear in court, obtain evidence, apply for asset preservation and enforce judgments inside China following PRC procedure end to end.",
+      es: "Tengo licencia para ejercer en China (n.º 14403201411015550): puedo demandar, comparecer, obtener pruebas, solicitar medidas cautelares y ejecutar resoluciones dentro de China ; según el Derecho chino, estas actuaciones las realiza un abogado con licencia en China.",
+      fr: "Je détiens une licence pour exercer en Chine (n° 14403201411015550) : je peux saisir les juridictions, plaider, obtenir des preuves, solliciter des mesures conservatoires et exécuter les décisions en Chine ; en droit chinois, ces étapes relèvent d'un avocat inscrit en Chine.",
+      de: "Ich besitze eine chinesische Anwaltszulassung (Nr. 14403201411015550) und kann in China klagen, verhandeln, Beweise erheben, Vermögenssicherung beantragen und Urteile vollstrecken ; diese Schritte sind nach chinesischem Recht von einem in China zugelassenen Anwalt zu erledigen.",
+      ar: "أحمل ترخيص المحاماة في الصين (رقم 14403201411015550): أستطيع رفع الدعاوى والمرافعة وجمع الأدلة وطلب الحجز على الأموال وتنفيذ الأحكام داخل الصين ; وهذه الخطوات يؤديها، وفق القانون الصيني، محامٍ مرخّص في الصين."
+    }
+  },
+  {
+    icon: "&#127760;",
+    t: {
+      zh: "中英双语，直连沟通不转述", en: "Bilingual — no translator in between",
+      es: "Bilingüe, sin intermediarios que traduzcan", fr: "Bilingue — sans traducteur intermédiaire",
+      de: "Zweisprachig — ohne Übersetzer dazwischen", ar: "ثنائي اللغة — بلا وسيط مترجم"
+    },
+    d: {
+      zh: "中文是我的母语，英文是我的工作语言。合同、律师函、尽调报告、庭审材料可直接出中英文本——不经转述，信息不丢失，风险不误判。",
+      en: "Chinese is my native language and English my working language. Contracts, demand letters, due-diligence reports and court filings can all be delivered in Chinese and English — nothing lost in retelling, no risk misread.",
+      es: "El chino es mi lengua materna y el inglés mi lengua de trabajo. Contratos, requerimientos, informes de diligencia y escritos judiciales se entregan en chino e inglés: sin distorsión y sin riesgos malinterpretados.",
+      fr: "Le chinois est ma langue maternelle, l'anglais ma langue de travail. Contrats, mises en demeure, rapports de due diligence et écritures sont livrés en chinois et en anglais : aucune perte d'information, aucun risque mal évalué.",
+      de: "Chinesisch ist meine Muttersprache, Englisch meine Arbeitssprache. Verträge, Abmahnungen, Due-Diligence-Berichte und Schriftsätze liefere ich auf Chinesisch und Englisch — keine Informationsverluste, keine falsch eingeschätzten Risiken.",
+      ar: "الصينية لغتي الأم والإنجليزية لغة عملي. العقود والإنذارات وتقارير الفحص ومستندات التقاضي تُسلَّم بالصينية والإنجليزية — دون فقدان معلومات أو سوء تقدير للمخاطر."
+    }
+  },
+  {
+    icon: "&#128202;",
+    t: {
+      zh: "懂跨境贸易实操，不只是懂法条", en: "I understand the trade, not just the law",
+      es: "Entiendo el comercio, no solo la ley", fr: "Je comprends le commerce, pas seulement la loi",
+      de: "Ich verstehe den Handel, nicht nur das Gesetz", ar: "أفهم التجارة لا القانون فقط"
+    },
+    d: {
+      zh: "香港大学金融与投资管理研究生背景，加上长期涉港涉外业务经验。我熟悉贸易术语、信用证与电汇条款、验货标准、供应链与关税结构——听得懂你的生意，才谈得上保护你的生意。",
+      en: "A postgraduate degree in Finance and Investment Management from the University of Hong Kong, plus years of cross-border practice. I know Incoterms, L/C and T/T terms, inspection standards, supply chains and duty structures — understanding your business is where protection begins.",
+      es: "Máster en Finanzas y Gestión de Inversiones por la Universidad de Hong Kong y años de práctica transfronteriza. Conozco Incoterms, condiciones de L/C y T/T, normas de inspección, cadenas de suministro y estructuras arancelarias: entender su negocio es el punto de partida para protegerlo.",
+      fr: "Formation en finance et gestion d'investissement (Université de Hong Kong) et pratique transfrontalière de longue date. Je maîtrise les Incoterms, les conditions L/C et T/T, les normes d'inspection, les chaînes d'approvisionnement et les droits de douane : comprendre votre activité est le point de départ de sa protection.",
+      de: "Postgraduiertenabschluss in Finanz- und Investmentmanagement der Universität Hongkong plus langjährige grenzüberschreitende Praxis. Ich kenne Incoterms, L/C- und T/T-Bedingungen, Prüfstandards, Lieferketten und Zollstrukturen — Ihr Geschäft zu verstehen ist der Anfang seines Schutzes.",
+      ar: "شهادة دراسات عليا في المالية وإدارة الاستثمار من جامعة هونغ كونغ، مع خبرة طويلة في الأعمال العابرة للحدود. أعرف شروط التجارة الدولية واعتمادات المستندات والتحويلات ومعايير الفحص وسلاسل التوريد وهياكل الرسوم — وفهم عملك هو بداية حمايته."
+    }
+  },
+  {
+    icon: "&#129309;",
+    t: {
+      zh: "有同类外商客户经验，懂你的顾虑", en: "I have served buyers like you",
+      es: "He asesorado a compradores como usted", fr: "J'ai accompagné des acheteurs comme vous",
+      de: "Ich habe Käufer wie Sie beraten", ar: "خدمت مشترين أمثالكم"
+    },
+    d: {
+      zh: "团队长期为境外采购商、贸易商与品牌方提供对华采购法律支持，处理过供应商违约、质量争议、货款追索、商标抢注与海关合规等同类事务。你现在遇到的问题，我大概率已经处理过。",
+      en: "Our team has long supported overseas buyers, traders and brand owners on China sourcing — supplier default, quality disputes, payment recovery, trademark squatting and customs compliance. Whatever you face now, I have most likely handled it before.",
+      es: "Nuestro equipo lleva años apoyando a compradores, comerciantes y titulares de marcas extranjeros en sus compras en China: incumplimiento de proveedores, disputas de calidad, cobro de pagos, registro indebido de marcas y cumplimiento aduanero. Lo que afronta ahora, probablemente ya lo hemos resuelto.",
+      fr: "Notre équipe accompagne depuis longtemps acheteurs, négociants et titulaires de marques étrangers pour leurs achats en Chine : défaillance fournisseur, litiges qualité, recouvrement, dépôts de marque abusifs et conformité douanière. Ce que vous vivez, nous l'avons très probablement déjà traité.",
+      de: "Unser Team unterstützt seit Jahren ausländische Einkäufer, Händler und Markeninhaber beim China-Bezug: Lieferantenverzug, Qualitätsstreitigkeiten, Forderungseinzug, Markenpiraterie und Zoll-Compliance. Was Sie jetzt erleben, haben wir höchstwahrscheinlich schon gelöst.",
+      ar: "يدعم فريقنا منذ سنوات المشترين والتجار وأصحاب العلامات الأجانب في مشترياتهم من الصين: إخلال المورّد، ونزاعات الجودة، وتحصيل المدفوعات، وتسجيل العلامات بسوء نية، والامتثال الجمركي. ما تواجهه الآن على الأرجح تعاملنا معه من قبل."
+    }
+  }
+];
+
+/* =========================================================
+   服务路径说明：常见路径的职能范围 vs 我可以承接的部分
+   ========================================================= */
+const GAP = [
+  {
+    cant: {
+      zh: "本国律师路径：熟悉您所在国的法律与商业环境，在境外谈判、合规与执行等环节提供支持；中国境内的立案、出庭、调查取证与财产保全，按中国法律须由中国执业律师办理。",
+      en: "Your home-country counsel: strong on your own law and business environment, and valuable for negotiation, compliance and enforcement abroad. Inside China, filing, court appearances, evidence-gathering and asset preservation must be handled by a lawyer licensed in China.",
+      es: "Abogado de su país: sólido en su Derecho y su entorno empresarial, y valioso para negociar, cumplir y ejecutar en el extranjero. Dentro de China, demandar, comparecer, obtener pruebas y adoptar medidas cautelares corresponde a un abogado con licencia china.",
+      fr: "Avocat de votre pays : solide sur votre droit et votre environnement d'affaires, précieux pour négocier, se conformer et exécuter à l'étranger. En Chine, saisir une juridiction, plaider, obtenir des preuves et prendre des mesures conservatoires relève d'un avocat inscrit en Chine.",
+      de: "Anwalt in Ihrem Land: stark im eigenen Recht und Geschäftsumfeld, wertvoll für Verhandlung, Compliance und Vollstreckung im Ausland. In China müssen Klage, Verhandlung, Beweiserhebung und Vermögenssicherung von einem in China zugelassenen Anwalt geführt werden.",
+      ar: "محامي بلدك: قوي في قانون بلدك وبيئته التجارية، ومفيد في التفاوض والامتثال والتنفيذ في الخارج. أما داخل الصين، فإن رفع الدعوى والمرافعة وجمع الأدلة والحجز على الأموال يقوم بها محامٍ مرخّص في الصين."
+    },
+    can: {
+      zh: "我在中国境内完成立案、出庭、调查取证、财产保全与强制执行，并与您所在国的律师配合衔接。",
+      en: "I handle filing, court appearances, evidence-gathering, asset preservation and enforcement inside China, and coordinate with your home-country counsel where needed.",
+      es: "Yo me encargo dentro de China de demandar, comparecer, obtener pruebas, medidas cautelares y ejecución, y coordino con su abogado de origen cuando hace falta.",
+      fr: "Je prends en charge en Chine la saisine, les plaidoiries, l'obtention de preuves, les mesures conservatoires et l'exécution, et je coordonne avec votre avocat d'origine si nécessaire.",
+      de: "Ich übernehme in China Klage, Verhandlung, Beweiserhebung, Vermögenssicherung und Vollstreckung und stimme mich bei Bedarf mit Ihrem Anwalt im Heimatland ab.",
+      ar: "أتولى داخل الصين رفع الدعوى والمرافعة وجمع الأدلة والحجز على الأموال والتنفيذ، وأنسّق عند الحاجة مع محاميك في بلدك."
+    }
+  },
+  {
+    cant: {
+      zh: "翻译或中间人转述：沟通多一层转述，法律细节需要反复确认，关键判断容易在传递中走形。",
+      en: "Translators or intermediaries: every extra layer of relay adds a step where legal nuance has to be checked again.",
+      es: "Traductores o intermediarios: cada capa añadida obliga a reconfirmar los matices jurídicos.",
+      fr: "Traducteurs ou intermédiaires : chaque couche supplémentaire oblige à revérifier les nuances juridiques.",
+      de: "Übersetzer oder Mittelsmänner: Jede zusätzliche Ebene bedeutet, rechtliche Nuancen erneut abzugleichen.",
+      ar: "المترجمون أو الوسطاء: كل طبقة إضافية تعني إعادة التحقق من الدقائق القانونية."
+    },
+    can: {
+      zh: "我直接用中文或英文与你沟通，交付文件中英双语，责任链条清晰。",
+      en: "I speak with you directly in Chinese or English and deliver documents in both, with a clear line of responsibility.",
+      es: "Hablo con usted directamente en chino o inglés y entrego documentos en ambos idiomas, con responsabilidad clara.",
+      fr: "Je communique directement avec vous en chinois ou en anglais et je livre les documents dans les deux langues, avec une responsabilité claire.",
+      de: "Ich kommuniziere direkt auf Chinesisch oder Englisch und liefere Dokumente in beiden Sprachen — mit klarer Verantwortung.",
+      ar: "أتواصل معك مباشرة بالصينية أو الإنجليزية وأسلّم المستندات باللغتين مع مسؤولية واضحة."
+    }
+  },
+  {
+    cant: {
+      zh: "仅在中国境内执业的律师路径：熟悉中国程序与本地实务，服务与成果通常以中文交付。",
+      en: "A China-domestic practice: deep familiarity with PRC procedure and local practice, with deliverables usually in Chinese.",
+      es: "Un despacho puramente local en China: gran conocimiento del procedimiento chino y la práctica local, con entregables habitualmente en chino.",
+      fr: "Un cabinet purement local en Chine : grande maîtrise de la procédure chinoise et des usages locaux, livrables généralement en chinois.",
+      de: "Eine rein chinesische Kanzlei: sehr vertraut mit chinesischem Verfahren und lokaler Praxis, Ergebnisse meist auf Chinesisch.",
+      ar: "مكتب محلي في الصين فقط: معرفة عميقة بالإجراءات الصينية والممارسة المحلية، والتسليم غالبًا بالصينية."
+    },
+    can: {
+      zh: "我兼顾中国法律与跨境采购实务，交付中英双语版本，并用你熟悉的方式说明风险。",
+      en: "I combine PRC law with cross-border sourcing practice, deliver in Chinese and English, and explain the risk in terms you already use.",
+      es: "Combino el Derecho chino con la práctica del abastecimiento transfronterizo, entrego en chino e inglés y explico el riesgo en sus propios términos.",
+      fr: "J'allie droit chinois et pratique des achats transfrontaliers, je livre en chinois et en anglais et j'explique le risque dans vos termes.",
+      de: "Ich verbinde chinesisches Recht mit grenzüberschreitender Beschaffungspraxis, liefere auf Chinesisch und Englisch und erkläre das Risiko in Ihrer Sprache.",
+      ar: "أجمع بين القانون الصيني وممارسة الشراء العابر للحدود، وأسلّم بالصينية والإنجليزية، وأشرح الخطر بالمصطلحات التي تعرفها."
+    }
+  },
+  {
+    cant: {
+      zh: "线上查询平台：可以快速查到工商、涉诉等基础数据，数据的法律含义与可用性仍需专业判断。",
+      en: "Online search platforms: fast access to basic registry and litigation data, whose legal meaning and usability still require professional judgement.",
+      es: "Plataformas de consulta en línea: acceso rápido a datos básicos mercantiles y judiciales, cuyo significado jurídico y utilidad requieren aún un juicio profesional.",
+      fr: "Plateformes de recherche en ligne : accès rapide aux données de registre et de contentieux, dont la portée juridique et l'exploitabilité demandent encore une appréciation professionnelle.",
+      de: "Online-Rechercheplattformen: schneller Zugriff auf Register- und Verfahrensdaten, deren rechtliche Bedeutung und Verwertbarkeit weiterhin fachliche Bewertung erfordern.",
+      ar: "منصات البحث الإلكترونية: وصول سريع إلى بيانات السجل التجاري والقضايا، لكن معناها القانوني وقابلية استخدامها تحتاجان إلى تقدير مهني."
+    },
+    can: {
+      zh: "我出具带法律判断的尽调报告与律师函，可直接用于谈判、仲裁或诉讼。",
+      en: "I deliver due-diligence reports and demand letters with legal conclusions, usable directly in negotiation, arbitration or litigation.",
+      es: "Entrego informes de diligencia y requerimientos con conclusiones jurídicas, utilizables directamente en negociación, arbitraje o litigio.",
+      fr: "Je remets des rapports de due diligence et des mises en demeure assortis de conclusions juridiques, directement utilisables en négociation, arbitrage ou contentieux.",
+      de: "Ich liefere Due-Diligence-Berichte und Abmahnungen mit rechtlicher Bewertung — direkt einsetzbar in Verhandlung, Schiedsverfahren oder Prozess.",
+      ar: "أسلّم تقارير فحص وإنذارات تتضمن حكمًا قانونيًا، تصلح مباشرة للتفاوض أو التحكيم أو التقاضي."
+    }
+  }
+];
+
+/* =========================================================
+   追加文案层（I18N_EXT）：自查清单 + 常见问题
+   独立对象 + Object.assign 合并，避免改动上方巨型 I18N 字面量
+   ========================================================= */
+const I18N_EXT = {
+  zh: {
+    navCheck: "自查清单", navFaq: "常见问题",
+    chkEyebrow: "免费自查清单",
+    chkTitle: "12 项自查：你的中国采购，风险卡在哪一步",
+    chkSub: "先自查，再决定要不要请律师。以下 12 项是境外采购商最容易忽略、事后代价也最高的环节。答不上来的项目，就是需要重点加固的地方。",
+    chkNote: "以上任何一项答不上来，都建议在付款或扩大订单之前，先做一次「供应商 + 合同」风险体检。",
+    chkCtaBtn: "索取完整版清单（含处置建议）",
+    chkCtaAlt: "或发邮件索取",
+    faqEyebrow: "常见问题",
+    faqTitle: "境外采购商最常问的 6 个问题",
+    faqSub: "如果这里没有你的问题，欢迎通过 WhatsApp 或邮件直接问康雪崧律师。"
+  },
+  en: {
+    navCheck: "Checklist", navFaq: "FAQ",
+    chkEyebrow: "Free checklist",
+    chkTitle: "12 checks: where is the risk in your China sourcing?",
+    chkSub: "Check first, then decide whether you need a lawyer. These 12 points are what overseas buyers most often overlook — and where a mistake costs the most. Any point you cannot answer is a point worth reinforcing.",
+    chkNote: "For any point you cannot answer, a supplier-and-contract risk review is worth doing before you pay or scale up.",
+    chkCtaBtn: "Request the full checklist (with action steps)",
+    chkCtaAlt: "Or request by email",
+    faqEyebrow: "FAQ",
+    faqTitle: "Six questions overseas buyers ask most",
+    faqSub: "If your question is not here, ask Kang Xuesong directly on WhatsApp or by email."
+  },
+  es: {
+    navCheck: "Lista", navFaq: "Preguntas",
+    chkEyebrow: "Lista gratuita",
+    chkTitle: "12 puntos: ¿dónde está el riesgo en su abastecimiento en China?",
+    chkSub: "Primero revise, después decida si necesita un abogado. Estos 12 puntos son los que los compradores extranjeros suelen pasar por alto y donde un error cuesta más caro. Cada punto sin respuesta es un punto a reforzar.",
+    chkNote: "Si no puede responder a alguno de estos puntos, conviene una revisión de riesgo de proveedor y contrato antes de pagar o ampliar pedidos.",
+    chkCtaBtn: "Solicitar la lista completa (con pasos de acción)",
+    chkCtaAlt: "O solicitarla por correo",
+    faqEyebrow: "Preguntas frecuentes",
+    faqTitle: "Seis preguntas que más hacen los compradores extranjeros",
+    faqSub: "Si su pregunta no está aquí, pregúntele directamente a Kang Xuesong por WhatsApp o correo."
+  },
+  fr: {
+    navCheck: "Liste", navFaq: "Questions",
+    chkEyebrow: "Liste gratuite",
+    chkTitle: "12 points : où se situe le risque dans vos achats en Chine ?",
+    chkSub: "Vérifiez d'abord, décidez ensuite si vous avez besoin d'un avocat. Ces 12 points sont les plus souvent négligés par les acheteurs étrangers, et ceux où une erreur coûte le plus cher. Chaque point sans réponse est un point à renforcer.",
+    chkNote: "Pour tout point sans réponse, un audit de risque fournisseur et contrat est utile avant de payer ou d'augmenter les volumes.",
+    chkCtaBtn: "Demander la liste complète (avec les actions à mener)",
+    chkCtaAlt: "Ou la demander par e-mail",
+    faqEyebrow: "Questions fréquentes",
+    faqTitle: "Six questions que posent le plus souvent les acheteurs étrangers",
+    faqSub: "Si votre question n'y figure pas, posez-la directement à Kang Xuesong par WhatsApp ou e-mail."
+  },
+  de: {
+    navCheck: "Checkliste", navFaq: "FAQ",
+    chkEyebrow: "Kostenlose Checkliste",
+    chkTitle: "12 Punkte: Wo liegt das Risiko bei Ihrem China-Einkauf?",
+    chkSub: "Erst prüfen, dann entscheiden, ob Sie einen Anwalt brauchen. Diese 12 Punkte werden von ausländischen Einkäufern am häufigsten übersehen, und Fehler kosten hier am meisten. Jeder Punkt ohne Antwort ist ein Punkt zum Nachschärfen.",
+    chkNote: "Für jeden Punkt ohne Antwort lohnt sich eine Risikoprüfung von Lieferant und Vertrag, bevor Sie zahlen oder Mengen erhöhen.",
+    chkCtaBtn: "Vollständige Checkliste anfordern (mit Handlungsschritten)",
+    chkCtaAlt: "Oder per E-Mail anfordern",
+    faqEyebrow: "Häufige Fragen",
+    faqTitle: "Sechs Fragen, die ausländische Einkäufer am häufigsten stellen",
+    faqSub: "Wenn Ihre Frage hier nicht steht, fragen Sie Kang Xuesong direkt per WhatsApp oder E-Mail."
+  },
+  ar: {
+    navCheck: "قائمة الفحص", navFaq: "الأسئلة",
+    chkEyebrow: "قائمة فحص مجانية",
+    chkTitle: "١٢ نقطة: أين يقع الخطر في شرائك من الصين؟",
+    chkSub: "افحص أولًا، ثم قرر إن كنت تحتاج إلى محامٍ. هذه النقاط الاثنتا عشرة هي الأكثر إغفالًا من المشترين الأجانب، والأكثر تكلفة عند الخطأ. كل نقطة لا تجد لها جوابًا هي نقطة تستحق التقوية.",
+    chkNote: "إذا لم تجد جوابًا لأي نقطة، فمن المفيد إجراء مراجعة مخاطر للمورّد والعقد قبل الدفع أو زيادة الكميات.",
+    chkCtaBtn: "اطلب القائمة الكاملة (مع خطوات العمل)",
+    chkCtaAlt: "أو اطلبها بالبريد الإلكتروني",
+    faqEyebrow: "أسئلة شائعة",
+    faqTitle: "ستة أسئلة يطرحها المشترون الأجانب أكثر من غيرها",
+    faqSub: "إن لم يكن سؤالك هنا، اسأل كانغ شيوسونغ مباشرة عبر واتساب أو البريد الإلكتروني."
+  }
+};
+Object.keys(I18N_EXT).forEach(function (l) {
+  if (I18N[l]) Object.assign(I18N[l], I18N_EXT[l]);
+});
+
+/* ---------- 12 项采购风险自查清单 ---------- */
+const CHECKLIST = [
+  {
+    t: { zh: "供应商与资信", en: "Supplier and credit", es: "Proveedor y solvencia", fr: "Fournisseur et solvabilité", de: "Lieferant und Bonität", ar: "المورّد والملاءة" },
+    items: [
+      { zh: "签约前是否查过供应商的工商登记、股东、涉诉与失信记录？", en: "Have you checked the supplier's business registration, shareholders, litigation and credit records before signing?", es: "¿Ha verificado el registro mercantil, los socios, los litigios y los antecedentes de crédito del proveedor antes de firmar?", fr: "Avez-vous vérifié le registre du commerce, les associés, les litiges et les antécédents de crédit du fournisseur avant de signer ?", de: "Haben Sie vor Vertragsabschluss Handelsregister, Gesellschafter, Prozess- und Bonitätsdaten des Lieferanten geprüft?", ar: "هل تحققت قبل التوقيع من السجل التجاري للمورّد وشركائه والقضايا وسجل الائتمان؟" },
+      { zh: "对方提供的营业执照、厂址与产能，是否与官方登记一致？", en: "Do the licence, factory address and capacity the supplier gave you match the official records?", es: "¿Coinciden la licencia, la dirección de la fábrica y la capacidad indicadas con los registros oficiales?", fr: "La licence, l'adresse de l'usine et la capacité annoncées correspondent-elles aux registres officiels ?", de: "Stimmen die angegebene Lizenz, Werksadresse und Kapazität mit den amtlichen Registern überein?", ar: "هل تتطابق الرخصة وعنوان المصنع والطاقة الإنتاجية مع السجلات الرسمية؟" },
+      { zh: "是否存在同一实控人注册多家名称近似的公司（换壳风险）？", en: "Could the same owner be behind several similarly named companies, so the counterparty can be switched?", es: "¿Podría el mismo titular estar detrás de varias empresas con nombres similares (riesgo de cambio de sociedad)?", fr: "Le même dirigeant est-il derrière plusieurs sociétés aux noms proches, avec un risque de changement de coquille ?", de: "Steckt hinter mehreren ähnlich benannten Firmen derselbe Inhaber, sodass die Vertragspartei gewechselt werden kann?", ar: "هل يقف المالك نفسه خلف عدة شركات بأسماء متشابهة بحيث يمكن تغيير الطرف المتعاقد؟" }
+    ]
+  },
+  {
+    t: { zh: "合同与付款", en: "Contract and payment", es: "Contrato y pago", fr: "Contrat et paiement", de: "Vertrag und Zahlung", ar: "العقد والدفع" },
+    items: [
+      { zh: "合同是否约定了质量标准、验收方式与不合格品的处置办法？", en: "Does the contract define quality standards, the inspection method and how non-conforming goods are handled?", es: "¿El contrato define estándares de calidad, método de inspección y tratamiento de bienes no conformes?", fr: "Le contrat définit-il les normes de qualité, la méthode d'inspection et le traitement des produits non conformes ?", de: "Legt der Vertrag Qualitätsstandards, Prüfmethode und den Umgang mit nicht konformer Ware fest?", ar: "هل يحدد العقد معايير الجودة وطريقة الفحص وكيفية التعامل مع البضاعة غير المطابقة؟" },
+      { zh: "付款节奏是否与生产、验货、发货节点挂钩，而非全额预付？", en: "Is payment tied to production, inspection and shipment milestones rather than paid in full upfront?", es: "¿Está el pago vinculado a hitos de producción, inspección y embarque en lugar de pagarse todo por adelantado?", fr: "Le paiement est-il lié aux étapes de production, d'inspection et d'expédition plutôt qu'un prépaiement intégral ?", de: "Ist die Zahlung an Produktions-, Prüfungs- und Versandmeilensteine gekoppelt statt einer vollen Vorauszahlung?", ar: "هل ترتبط الدفعات بمراحل الإنتاج والفحص والشحن بدلًا من الدفع الكامل مقدمًا؟" },
+      { zh: "是否明确约定了争议解决方式、适用法律与管辖（仲裁或中国法院）？", en: "Are the dispute-resolution method, governing law and forum (arbitration or a Chinese court) clearly agreed?", es: "¿Están claramente pactados el método de solución de controversias, la ley aplicable y el foro (arbitraje o tribunal chino)?", fr: "Le mode de règlement des litiges, la loi applicable et la juridiction (arbitrage ou tribunal chinois) sont-ils clairement prévus ?", de: "Sind Streitbeilegungsart, anwendbares Recht und Gerichtsstand (Schiedsverfahren oder chinesisches Gericht) klar geregelt?", ar: "هل تم الاتفاق بوضوح على طريقة فضّ النزاع والقانون الواجب التطبيق والجهة المختصة (تحكيم أو محكمة صينية)؟" }
+    ]
+  },
+  {
+    t: { zh: "质量与交付", en: "Quality and delivery", es: "Calidad y entrega", fr: "Qualité et livraison", de: "Qualität und Lieferung", ar: "الجودة والتسليم" },
+    items: [
+      { zh: "是否安排第三方验货（如 SGS、BV）并约定明确的验收标准？", en: "Have you arranged third-party inspection such as SGS or BV, with clear acceptance criteria?", es: "¿Ha previsto una inspección por tercero (por ejemplo SGS o BV) con criterios de aceptación claros?", fr: "Avez-vous prévu une inspection par un tiers (par exemple SGS ou BV) avec des critères d'acceptation clairs ?", de: "Ist eine Drittprüfung etwa durch SGS oder BV mit klaren Abnahmekriterien vorgesehen?", ar: "هل تم الاتفاق على فحص طرف ثالث مثل SGS أو BV بمعايير قبول واضحة؟" },
+      { zh: "交货期、迟延违约金与不可抗力条款是否清晰、可执行？", en: "Are the delivery date, late-delivery penalty and force-majeure clause clear and enforceable?", es: "¿Son claras y exigibles la fecha de entrega, la penalización por retraso y la cláusula de fuerza mayor?", fr: "Le délai de livraison, les pénalités de retard et la clause de force majeure sont-ils clairs et exécutables ?", de: "Sind Liefertermin, Verzugsstrafe und Force-Majeure-Klausel klar und durchsetzbar?", ar: "هل تاريخ التسليم وغرامة التأخير وشرط القوة القاهرة واضحة وقابلة للتنفيذ؟" },
+      { zh: "往来邮件、订单、验货报告与变更记录是否完整留存作为证据？", en: "Are emails, orders, inspection reports and change records kept as evidence?", es: "¿Se conservan correos, pedidos, informes de inspección y cambios como prueba?", fr: "Les e-mails, commandes, rapports d'inspection et modifications sont-ils conservés comme preuves ?", de: "Werden E-Mails, Bestellungen, Prüfberichte und Änderungen als Beweismittel archiviert?", ar: "هل تُحفظ المراسلات والطلبات وتقارير الفحص وسجلات التعديل كأدلة؟" }
+    ]
+  },
+  {
+    t: { zh: "知识产权与合规", en: "IP and compliance", es: "Propiedad intelectual y cumplimiento", fr: "Propriété intellectuelle et conformité", de: "Schutzrechte und Compliance", ar: "الملكية الفكرية والامتثال" },
+    items: [
+      { zh: "商标是否已在中国注册，或至少在海关办理了知识产权备案？", en: "Is your trademark registered in China, or at least recorded with China Customs?", es: "¿Está su marca registrada en China o al menos inscrita ante la Aduana china?", fr: "Votre marque est-elle déposée en Chine, ou au moins enregistrée auprès des douanes chinoises ?", de: "Ist Ihre Marke in China eingetragen oder zumindest beim chinesischen Zoll hinterlegt?", ar: "هل علامتك التجارية مسجلة في الصين أو على الأقل مسجلة لدى الجمارك الصينية؟" },
+      { zh: "产品是否涉及中国出口管制、强制认证（CCC）或关税归类风险？", en: "Does the product involve Chinese export controls, mandatory certification such as CCC, or tariff-classification risk?", es: "¿El producto implica controles de exportación chinos, certificación obligatoria (CCC) o riesgo de clasificación arancelaria?", fr: "Le produit relève-t-il de contrôles à l'exportation chinois, d'une certification obligatoire (CCC) ou d'un risque de classement tarifaire ?", de: "Betrifft das Produkt chinesische Ausfuhrkontrollen, Pflichtzertifizierung wie CCC oder Einreihungsrisiken?", ar: "هل يخضع المنتج لضوابط التصدير الصينية أو شهادة إلزامية مثل CCC أو مخاطر التصنيف الجمركي؟" },
+      { zh: "遇到侵权、商标抢注或海关扣货时，是否知道处置时限与可行路径？", en: "If infringement, trademark squatting or a customs hold occurs, do you know the deadlines and the available routes?", es: "Ante una infracción, un registro de mala fe o una retención aduanera, ¿conoce los plazos y las vías disponibles?", fr: "En cas de contrefaçon, de dépôt frauduleux ou de retenue douanière, connaissez-vous les délais et les voies possibles ?", de: "Kennen Sie bei Rechtsverletzung, Markenpiraterie oder Zollbeschlagnahme die Fristen und die möglichen Wege?", ar: "عند وقوع تقليد أو تسجيل بسوء نية أو حجز جمركي، هل تعرف المهل والمسارات المتاحة؟" }
+    ]
+  }
+];
+
+/* ---------- 常见问题 ---------- */
+const FAQ = [
+  {
+    q: { zh: "你在哪里执业？可以远程合作吗？", en: "Where do you practise? Can we work remotely?", es: "¿Dónde ejerce? ¿Podemos trabajar a distancia?", fr: "Où exercez-vous ? Pouvons-nous travailler à distance ?", de: "Wo sind Sie zugelassen? Können wir remote zusammenarbeiten?", ar: "أين تمارس المهنة؟ هل يمكننا العمل عن بُعد؟" },
+    a: { zh: "我在深圳执业，属上海功承瀛泰（深圳）律师事务所。日常沟通与文件往来可以全程线上，通过邮件、WhatsApp 或视频会议进行；需要在中国境内立案、出庭、调查取证、财产保全与强制执行的环节，由我们在现场办理。", en: "I practise in Shenzhen at Wintell and Co (Shenzhen). Day-to-day communication and document exchange can run entirely online, by email, WhatsApp or video call. Steps that must happen inside China, such as filing a case, appearing in court, obtaining evidence, asset preservation and enforcement, are handled by us on the ground.", es: "Ejerzo en Shenzhen, en Wintell and Co (Shenzhen). La comunicación diaria y el intercambio de documentos pueden hacerse íntegramente en línea, por correo, WhatsApp o videollamada. Los trámites que deben realizarse dentro de China, como demandar, comparecer, obtener pruebas, medidas cautelares y ejecución, los llevamos a cabo nosotros sobre el terreno.", fr: "J'exerce à Shenzhen, au sein de Wintell and Co (Shenzhen). Les échanges courants et les documents peuvent se faire entièrement en ligne, par e-mail, WhatsApp ou visioconférence. Les étapes qui doivent avoir lieu en Chine, comme saisir une juridiction, plaider, obtenir des preuves, solliciter des mesures conservatoires et exécuter, sont assurées par nous sur place.", de: "Ich bin in Shenzhen bei Wintell and Co (Shenzhen) zugelassen. Die laufende Kommunikation und der Dokumentenaustausch können vollständig online erfolgen, per E-Mail, WhatsApp oder Videokonferenz. Schritte, die in China stattfinden müssen, etwa Klage, Verhandlung, Beweiserhebung, Vermögenssicherung und Vollstreckung, übernehmen wir vor Ort.", ar: "أمارس المهنة في شنتشن ضمن مكتب وينتل آند كو (شنتشن). يمكن أن تجري المراسلات اليومية وتبادل المستندات بالكامل عن بُعد عبر البريد أو واتساب أو مكالمة مرئية. أما الخطوات التي يجب تنفيذها داخل الصين، مثل رفع الدعوى والمرافعة وجمع الأدلة والحجز على الأموال والتنفيذ، فنتولاها ميدانيًا." }
+  },
+  {
+    q: { zh: "下单前能知道收费吗？", en: "Will I know the fee before I commit?", es: "¿Sabré el costo antes de contratar?", fr: "Connaîtrai-je les honoraires avant de m'engager ?", de: "Erfahre ich die Kosten vor der Beauftragung?", ar: "هل أعرف الأتعاب قبل التعاقد؟" },
+    a: { zh: "可以。标准化服务（合同审核、供应商尽调、律师函等）在签约前提供书面固定报价；争议解决等个案化服务按计时收费，先出方案与预算再决定是否启动；长期需求可采用年度顾问模式。报价为含税价，差旅、公证、翻译等第三方费用实报实销。", en: "Yes. Standardised services such as contract review, supplier due diligence and demand letters come with a fixed written quote before you commit. Case-specific work such as dispute resolution is billed by time, with a scope and budget first so you can decide whether to proceed. For ongoing needs we offer an annual retainer. Quotes are tax-inclusive; travel, notarisation, translation and other third-party costs are reimbursed at cost.", es: "Sí. Los servicios estandarizados, como revisión de contratos, diligencia de proveedores y requerimientos, incluyen una cotización fija por escrito antes de contratar. Los asuntos individuales, como la resolución de controversias, se facturan por tiempo, con un plan y presupuesto previos para que decida si iniciar. Para necesidades continuas ofrecemos una retainer anual. Las cotizaciones incluyen impuestos; los gastos de viaje, notariales, de traducción y otros de terceros se reembolsan a costo.", fr: "Oui. Les prestations standardisées, comme la revue de contrat, la due diligence fournisseur et les mises en demeure, font l'objet d'un devis forfaitaire écrit avant tout engagement. Les dossiers spécifiques, comme le règlement des litiges, sont facturés au temps, avec un périmètre et un budget préalables vous permettant de décider. Pour les besoins récurrents, un forfait annuel est possible. Les devis s'entendent taxes comprises ; les frais de déplacement, d'authentification, de traduction et autres frais de tiers sont refacturés au coût réel.", de: "Ja. Für standardisierte Leistungen wie Vertragsprüfung, Lieferanten-Due-Diligence und Abmahnschreiben erhalten Sie vor der Beauftragung ein schriftliches Festpreisangebot. Einzelfälle wie Streitbeilegung werden nach Zeitaufwand abgerechnet, mit vorherigem Konzept und Budget, damit Sie entscheiden können. Für laufenden Bedarf bieten wir einen Jahres-Retainer. Angebote verstehen sich inklusive Steuern; Reise-, Notar-, Übersetzungs- und sonstige Fremdkosten werden zum Selbstkostenpreis weitergegeben.", ar: "نعم. الخدمات المعيارية مثل مراجعة العقود وفحص المورّد والإنذارات القانونية تُقدَّم بعرض سعر ثابت مكتوب قبل التعاقد. أما الأعمال الفردية مثل فضّ النزاعات فتُحسب بالساعة، مع خطة وموازنة مسبقتين لتقرر ما إذا كنت تريد المضي. وللاحتياجات المستمرة يمكن الاتفاق على أتعاب سنوية. الأسعار تشمل الضريبة، وتُحتسب مصاريف السفر والتوثيق والترجمة ومصاريف الأطراف الثالثة بالتكلفة الفعلية." }
+  },
+  {
+    q: { zh: "我订单不大，值得请律师吗？", en: "My order is small. Is a lawyer worth it?", es: "Mi pedido es pequeño, ¿vale la pena un abogado?", fr: "Ma commande est modeste. Cela vaut-il un avocat ?", de: "Meine Bestellung ist klein. Lohnt sich ein Anwalt?", ar: "طلبي صغير: هل يستحق الأمر محاميًا؟" },
+    a: { zh: "值得关注的是风险敞口，而不是订单金额。一笔全额预付、一批货不对板，或一个被抢注的商标，损失往往会超过法律服务本身的费用。我们提供从单次合同审核到常年顾问的不同层级服务，可以按需要选择。", en: "What matters is the risk exposure, not the order size. A full prepayment, a shipment that does not match the specification, or a trademark registered by someone else can cost more than the legal service itself. We offer several levels, from a single contract review to an annual retainer, so you can choose what fits.", es: "Lo relevante es la exposición al riesgo, no el tamaño del pedido. Un pago total por adelantado, un lote que no corresponde a la especificación o una marca registrada por un tercero pueden costar más que el propio servicio jurídico. Ofrecemos varios niveles, desde una revisión puntual de contrato hasta una retainer anual.", fr: "L'important est l'exposition au risque, non le montant de la commande. Un prépaiement intégral, une marchandise non conforme ou une marque déposée par un tiers peuvent coûter plus cher que la prestation juridique elle-même. Nous proposons plusieurs niveaux, de la revue ponctuelle de contrat au forfait annuel.", de: "Entscheidend ist die Risikohöhe, nicht die Bestellgröße. Eine volle Vorauszahlung, eine nicht spezifikationsgerechte Lieferung oder eine von Dritten angemeldete Marke können teurer sein als die Rechtsberatung selbst. Wir bieten mehrere Stufen, von der einmaligen Vertragsprüfung bis zum Jahres-Retainer.", ar: "المهم هو حجم التعرّض للخطر لا قيمة الطلب. فالدفع الكامل مقدمًا أو شحنة غير مطابقة للمواصفات أو علامة تجارية سجّلها غيرك قد تكلّف أكثر من الأتعاب القانونية نفسها. نقدم مستويات متعددة، من مراجعة عقد واحدة إلى أتعاب سنوية." }
+  },
+  {
+    q: { zh: "合作顺利的话，还需要律师吗？", en: "If things are going well, do I still need a lawyer?", es: "Si todo va bien, ¿sigo necesitando un abogado?", fr: "Si tout se passe bien, ai-je encore besoin d'un avocat ?", de: "Wenn alles gut läuft, brauche ich dann noch einen Anwalt?", ar: "إذا سارت الأمور جيدًا، هل أحتاج محاميًا؟" },
+    a: { zh: "合作顺利时，律师的作用是把商业安排落实到合同、知识产权与合规上，让关系更稳、更可预期；一旦出现迟延、质量问题或对方调整公司主体，提前准备过的一方，手里的证据更完整、可选方案也更多。多数客户选择的是预防与备用方案并行。", en: "When things go well, the lawyer's role is to translate your commercial arrangement into the contract, IP and compliance layers, so the relationship is more stable and predictable. If delay, quality issues or a change of counterparty entity arise, the party with preparation in place holds better evidence and more options. Most clients choose prevention and a fallback plan in parallel.", es: "Cuando todo va bien, la función del abogado es trasladar el acuerdo comercial al contrato, la propiedad intelectual y el cumplimiento, para que la relación sea más estable y previsible. Si surgen retrasos, problemas de calidad o un cambio de sociedad contraparte, quien se preparó antes tiene mejores pruebas y más opciones. La mayoría de los clientes combinan prevención y plan alternativo.", fr: "Quand tout va bien, le rôle de l'avocat est de traduire votre accord commercial dans le contrat, la propriété intellectuelle et la conformité, afin de rendre la relation plus stable et prévisible. En cas de retard, de problème de qualité ou de changement de société cocontractante, la partie préparée dispose de meilleures preuves et de plus d'options. La plupart des clients associent prévention et solution de repli.", de: "Wenn es gut läuft, übersetzt der Anwalt Ihre kaufmännische Vereinbarung in Vertrag, Schutzrechte und Compliance, damit die Beziehung stabiler und planbarer wird. Bei Verzug, Qualitätsproblemen oder einem Wechsel der Vertragspartei hat die vorbereitete Seite bessere Beweise und mehr Optionen. Die meisten Mandanten wählen Prävention und Rückfallplan parallel.", ar: "عندما تسير الأمور جيدًا، يكون دور المحامي ترجمة ترتيبك التجاري إلى العقد والملكية الفكرية والامتثال، لتصبح العلاقة أكثر استقرارًا وقابلية للتوقع. وإذا حدث تأخير أو خلل في الجودة أو تغيّر الكيان المتعاقد، فإن من استعد مسبقًا يملك أدلة أفضل وخيارات أكثر. معظم العملاء يجمعون بين الوقاية وخطة بديلة." }
+  },
+  {
+    q: { zh: "语言不通怎么办？文件和证据怎么处理？", en: "What about language? How are documents handled?", es: "¿Y el idioma? ¿Cómo se gestionan los documentos?", fr: "Et la langue ? Comment sont traités les documents ?", de: "Und die Sprache? Wie werden Dokumente gehandhabt?", ar: "وماذا عن اللغة؟ كيف تُعالج المستندات؟" },
+    a: { zh: "我用中文和英文直接与你沟通，不需要第三方转述；交付文件可提供中英文版本。中国境内的工商与涉诉信息查询、公证认证、翻译与送达等事项，由我们协调办理，你不需要另找当地机构对接。", en: "I communicate with you directly in Chinese and English, with no third party relaying messages, and deliverables can be issued in both languages. Business-registry and litigation-record searches, notarisation and legalisation, translation and service of documents inside China are coordinated by us, so you do not need to find a local provider yourself.", es: "Me comunico con usted directamente en chino e inglés, sin terceros que retransmitan, y los entregables pueden emitirse en ambos idiomas. Las consultas de registros mercantiles y judiciales, la legalización, la traducción y las notificaciones dentro de China las coordinamos nosotros, sin que usted deba buscar un proveedor local.", fr: "Je communique avec vous directement en chinois et en anglais, sans intermédiaire, et les livrables peuvent être établis dans les deux langues. Les recherches au registre du commerce et au registre des litiges, l'authentification, la traduction et la signification en Chine sont coordonnées par nos soins, sans que vous ayez à chercher un prestataire local.", de: "Ich kommuniziere direkt auf Chinesisch und Englisch, ohne Zwischeninstanz, und Ergebnisse können in beiden Sprachen erstellt werden. Handels- und Prozessregisterauskünfte, Beglaubigung und Legalisation, Übersetzung und Zustellung in China koordinieren wir, sodass Sie keinen lokalen Dienstleister suchen müssen.", ar: "أتواصل معك مباشرة بالصينية والإنجليزية دون وسيط، ويمكن إصدار المستندات باللغتين. أما الاستعلام من السجلات التجارية والقضائية والتوثيق والتصديق والترجمة والتبليغ داخل الصين فنتولى تنسيقها، دون أن تحتاج إلى البحث عن جهة محلية." }
+  },
+  {
+    q: { zh: "已经出现纠纷了，你们能做什么？", en: "There is already a dispute. What can you do?", es: "Ya hay una controversia. ¿Qué pueden hacer?", fr: "Un litige est déjà né. Que pouvez-vous faire ?", de: "Es gibt bereits Streit. Was können Sie tun?", ar: "هناك نزاع قائم بالفعل. ماذا يمكنكم أن تفعلوا؟" },
+    a: { zh: "通常的路径是：发律师函、对账与谈判、申请财产保全，然后提起诉讼或仲裁，并跟进裁判文书的强制执行。不同阶段可选的手段不同，越早介入，方案越多。具体结果取决于事实、证据与法律适用，我们会在评估后告知可行的方案、时间预期与费用。", en: "The usual route is a demand letter, reconciliation and negotiation, an application for asset preservation, then litigation or arbitration, followed by enforcement of the award or judgment. The tools available differ by stage, and earlier involvement generally means more options. The outcome depends on the facts, the evidence and the applicable law; after an assessment we set out the feasible plan, timeline and cost.", es: "La vía habitual es requerimiento, conciliación de cuentas y negociación, solicitud de medidas cautelares, y después litigio o arbitraje, con la posterior ejecución de la resolución. Los instrumentos disponibles varían según la fase y, cuanto antes se intervenga, más opciones hay. El resultado depende de los hechos, las pruebas y el derecho aplicable; tras la evaluación le indicaremos el plan viable, los plazos y el costo.", fr: "La voie habituelle est la mise en demeure, la conciliation des comptes et la négociation, puis une demande de mesures conservatoires, ensuite le contentieux ou l'arbitrage, avec l'exécution de la décision. Les leviers diffèrent selon l'étape et, plus l'intervention est précoce, plus les options sont nombreuses. Le résultat dépend des faits, des preuves et du droit applicable ; après évaluation, nous vous indiquons le plan envisageable, les délais et le coût.", de: "Der übliche Weg ist ein Abmahnschreiben, Kontenabgleich und Verhandlung, dann ein Antrag auf Vermögenssicherung, anschließend Klage oder Schiedsverfahren und danach die Vollstreckung der Entscheidung. Die Mittel unterscheiden sich je nach Phase, und je früher die Mitwirkung beginnt, desto mehr Optionen bestehen. Das Ergebnis hängt von Sachverhalt, Beweisen und anwendbarem Recht ab; nach der Prüfung nennen wir Ihnen den machbaren Plan, den Zeitrahmen und die Kosten.", ar: "المسار المعتاد هو: إنذار قانوني، ثم تسوية الحسابات والتفاوض، ثم طلب الحجز على الأموال، ثم رفع الدعوى أو التحكيم، مع متابعة تنفيذ الحكم أو القرار. تختلف الوسائل المتاحة بحسب المرحلة، وكلما كان التدخل أبكر كانت الخيارات أوسع. أما النتيجة فتعتمد على الوقائع والأدلة والقانون الواجب التطبيق، وبعد التقييم نوضح لك الخطة الممكنة والمدى الزمني والتكلفة." }
+  }
+];
+
+/* =========================================================
    渲染逻辑
    ========================================================= */
 let currentLang = "zh";
@@ -525,6 +1055,71 @@ function applyI18n(lang){
   document.title = dict.pageTitle || document.title;
   document.querySelector("#year").textContent = new Date().getFullYear();
   renderCatalogue(lang);
+  renderPains(lang);
+  renderAdv(lang);
+  renderGap(lang);
+  renderChecklist(lang);
+  renderFaq(lang);
+}
+
+/* ---------- 渲染：八大痛点 ↔ 八大板块 ---------- */
+function renderPains(lang){
+  const el = document.getElementById("painsGrid");
+  if(!el) return;
+  const d = I18N[lang] || I18N.en;
+  el.innerHTML = PAINS.map(p => {
+    const cat = CATALOGUE.filter(c => c.id === p.cat)[0];
+    const catTitle = cat ? pick(cat.title, lang) : "";
+    const no = cat ? (lang === "zh" ? cat.noZh : locNum(lang, cat.noEn)) : "";
+    return `<div class="pain-card">
+      <div class="pain-no">${no}</div>
+      <p class="pain-q">${pick(p.pain, lang)}</p>
+      <p class="pain-a">${pick(p.fix, lang)}</p>
+      <a class="pain-link" href="#cat-${p.cat}">${d.painJump}：${catTitle} &rsaquo;</a>
+    </div>`;
+  }).join("");
+}
+
+/* ---------- 渲染：四大优势 ---------- */
+function renderAdv(lang){
+  const el = document.getElementById("advGrid");
+  if(!el) return;
+  el.innerHTML = ADV.map((a, i) => `<div class="adv-card">
+      <div class="adv-ico">${locNum(lang, String(i + 1).padStart(2, "0"))}</div>
+      <h3 class="adv-title">${pick(a.t, lang)}</h3>
+      <p class="adv-desc">${pick(a.d, lang)}</p>
+    </div>`).join("");
+}
+
+/* ---------- 渲染：服务路径说明 ---------- */
+function renderGap(lang){
+  const el = document.getElementById("gapList");
+  if(!el) return;
+  const d = I18N[lang] || I18N.en;
+  el.innerHTML = GAP.map(g => `<div class="gap-row">
+      <div class="gap-cant"><span class="gap-tag">${d.gapCant}</span><p>${pick(g.cant, lang)}</p></div>
+      <div class="gap-can"><span class="gap-tag">${d.gapCan}</span><p>${pick(g.can, lang)}</p></div>
+    </div>`).join("");
+}
+
+/* ---------- 渲染：12 项采购风险自查清单 ---------- */
+function renderChecklist(lang){
+  const el = document.getElementById("checklistGrid");
+  if(!el) return;
+  el.innerHTML = CHECKLIST.map((g, gi) => `<div class="chk-card">
+      <h4><span class="chk-no">${locNum(lang, String(gi + 1).padStart(2, "0"))}</span><span>${pick(g.t, lang)}</span></h4>
+      <ul>${g.items.map(it => `<li>${pick(it, lang)}</li>`).join("")}</ul>
+    </div>`).join("");
+}
+
+/* ---------- 渲染：常见问题 ---------- */
+function renderFaq(lang){
+  const el = document.getElementById("faqList");
+  if(!el) return;
+  el.innerHTML = FAQ.map(f => `<details class="faq-item">
+      <summary>${pick(f.q, lang)}</summary>
+      <div class="faq-a">${pick(f.a, lang)}</div>
+    </details>`).join("");
 }
 
 function renderCatalogue(lang){
