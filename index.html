@@ -55,7 +55,6 @@ header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdr
 /* ---------- Hero ---------- */
 .hero{position:relative;overflow:hidden;background:linear-gradient(140deg,var(--navy-deep) 0%,var(--navy) 55%,#1b3a58 100%);color:#fff;padding:88px 0 84px}
 .hero::after{content:"";position:absolute;right:-160px;top:-160px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(197,165,90,.22),transparent 65%)}
-.hero-grid{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
 .hero .container{position:relative;z-index:2;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-size:12.5px;letter-spacing:2px;font-weight:700;text-transform:uppercase;margin-bottom:18px}
 .hero-eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
@@ -442,36 +441,6 @@ header.nav-hidden{transform:translateY(-102%)}
 
 <!-- hero -->
 <section class="hero" id="top" data-page-node-id="hWnwmwQW6AmQA4LMFQYxKS">
-  <svg class="hero-grid" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-    <defs>
-      <pattern id="hgCell" width="96" height="72" patternUnits="userSpaceOnUse">
-        <path d="M96 0H0V72" fill="none" stroke="#9fb0bf" stroke-opacity="0.16" stroke-width="1"/>
-      </pattern>
-      <radialGradient id="hgFade" cx="50%" cy="40%" r="72%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-        <stop offset="55%" stop-color="#ffffff" stop-opacity="0.55"/>
-        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-      </radialGradient>
-      <mask id="hgMask">
-        <rect width="1200" height="640" fill="url(#hgFade)"/>
-      </mask>
-      <linearGradient id="hgRoute" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#c5a55a" stop-opacity="0"/>
-        <stop offset="38%" stop-color="#c5a55a" stop-opacity="0.5"/>
-        <stop offset="100%" stop-color="#c5a55a" stop-opacity="0"/>
-      </linearGradient>
-    </defs>
-    <rect width="1200" height="640" fill="url(#hgCell)" mask="url(#hgMask)"/>
-    <g fill="none" stroke="url(#hgRoute)" stroke-width="1.4" mask="url(#hgMask)">
-      <path d="M-60 566C220 476 420 306 646 202"/>
-      <path d="M170 706C420 566 706 424 1270 252"/>
-    </g>
-    <g fill="#c5a55a" mask="url(#hgMask)">
-      <circle cx="646" cy="202" r="3" fill-opacity="0.5"/>
-      <circle cx="238" cy="458" r="2.4" fill-opacity="0.34"/>
-      <circle cx="1016" cy="332" r="2.6" fill-opacity="0.38"/>
-    </g>
-  </svg>
   <div class="container" data-page-node-id="VaspFPgGa1K3xQoQEi1qv0">
     <div data-page-node-id="I8MBFdZ6dmycF4ZdxAzTxm">
       <div class="hero-eyebrow" data-i18n="heroEyebrow" data-page-node-id="yjlGwSBUWszxYrZG1slOg2">Legal Service Catalogue for Overseas Buyers</div>
