@@ -119,7 +119,9 @@ td.svc-fee{white-space:nowrap;font-weight:600;color:var(--navy);width:110px}
 }
 /* ---------- About ---------- */
 .about{background:var(--cream)}
-.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:start}
+/* 上下布局：律所介绍在上，律师卡片居中在下 */
+.about-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:start}
+.about-grid .person-card{max-width:460px;width:100%;margin:0 auto}
 .about-text h3{font-family:var(--font-serif);color:var(--navy);font-size:19px;margin:26px 0 10px}
 .about-text h3:first-child{margin-top:0}
 .about-text p{color:#43525f;font-size:14.5px;margin-bottom:10px;text-align:justify}
