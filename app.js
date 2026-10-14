@@ -73,8 +73,8 @@ const I18N = {
     why4: "Associated network: HFW (UK) & a Singapore firm",
     why5: "Standardised products · fixed fees · transparent quotes",
     why6: "Maritime / trade compliance / IP specialist teams",
-    tr1s: "Offices", tr2s: "Professionals", tr3n: "2",
-    tr1: "National offices", tr2: "Professionals", tr3: "Languages", tr4: "Shenzhen office since",
+    tr1s: "", tr2s: "", tr3n: "2",
+    tr1: "National offices", tr2: "Professionals", tr3: "Working languages", tr4: "Shenzhen office opened",
     cataEyebrow: "Service Catalogue", cataTitle: "Eight Sections Covering the Full Sourcing Journey", cataSub: "Written quotes are available before engagement for every service; deliverables can be provided in English. Use the chips above to jump to a section.",
     abEyebrow: "About Us", abTitle: "About Us",
     abFirmH: "The Firm — Wintell & Co",
@@ -510,7 +510,7 @@ const COL_HEAD = {
 /* =========================================================
    渲染逻辑
    ========================================================= */
-let currentLang = "zh";
+let currentLang = "en";
 
 function pick(obj, lang){ return (obj && obj[lang]) ? obj[lang] : (obj && obj.en) ? obj.en : ""; }
 
@@ -582,16 +582,12 @@ function locNum(lang, s){
 /* ---------- init ---------- */
 (function(){
   const sel = document.getElementById("languageSelect");
-  /* 语言持久化 + 默认(浏览器非中文则英文) */
-  const saved = localStorage.getItem("fbl_lang");
-  const browserLang = (navigator.language || "").toLowerCase().slice(0,2);
-  const def = saved || (browserLang === "zh" ? "zh" : "en");
-  currentLang = ["zh","en","es","fr","de","ar"].includes(def) ? def : "en";
+  /* 默认语言：每次打开一律英文（不跟随浏览器语言，也不记忆访客上次的选择） */
+  currentLang = "en";
   sel.value = currentLang;
   applyI18n(currentLang);
   sel.addEventListener("change", () => {
     currentLang = sel.value;
-    localStorage.setItem("fbl_lang", currentLang);
     applyI18n(currentLang);
   });
   /* scroll spy for category chips */
