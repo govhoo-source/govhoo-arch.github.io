@@ -119,18 +119,20 @@ td.svc-fee{white-space:nowrap;font-weight:600;color:var(--navy);width:110px}
 }
 /* ---------- About ---------- */
 .about{background:var(--cream)}
-/* 上下布局：律所介绍在上，律师卡片居中在下 */
+/* 上下布局：律所介绍在上，律师卡片居中在下；卡片内部为「职业照在左 · 介绍在右」同一行 */
 .about-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:start}
-.about-grid .person-card{max-width:460px;width:100%;margin:0 auto}
+.about-grid .person-card{max-width:880px;width:100%;margin:0 auto}
 .about-text h3{font-family:var(--font-serif);color:var(--navy);font-size:19px;margin:26px 0 10px}
 .about-text h3:first-child{margin-top:0}
 .about-text p{color:#43525f;font-size:14.5px;margin-bottom:10px;text-align:justify}
 .about-list{list-style:none;margin:8px 0 4px}
 .about-list li{display:flex;gap:10px;padding:5px 0;font-size:14px;color:#43525f}
 .about-list li::before{content:"✦";color:var(--gold-deep);flex-shrink:0;font-size:12px;margin-top:4px}
-.person-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
-.person-photo{width:100%;aspect-ratio:1/1.06;object-fit:cover;object-position:top}
-.person-body{padding:22px 24px}
+/* 桌面端：两列网格——职业照占左列，姓名/职务/学历/简介在右列，同一行 */
+.person-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);display:grid;grid-template-columns:280px minmax(0,1fr);align-items:stretch}
+/* 照片撑满左列高度，顶部对齐裁切（保住面部），不设固定宽高比以免右侧文字挤压变形 */
+.person-photo{width:100%;height:100%;object-fit:cover;object-position:top}
+.person-body{padding:26px 28px}
 .person-name{font-family:var(--font-serif);font-size:20px;font-weight:900;color:var(--navy)}
 .person-role{color:var(--gold-deep);font-weight:600;font-size:13.5px;margin:2px 0 12px}
 .person-edu{display:flex;flex-direction:column;gap:8px;background:var(--gold-light);border:1px solid #eadfc4;border-radius:12px;padding:14px 16px;margin-bottom:14px;font-size:13.5px}
@@ -256,8 +258,9 @@ header.nav-hidden{transform:translateY(-102%)}
   .about-text h3{font-size:17.5px;margin:22px 0 8px}
   .about-text p,.person-desc{font-size:14px;text-align:left}
   .about-list li{font-size:13.5px}
-  .person-card{max-width:420px;margin:0 auto}
-  .person-photo{max-height:400px}
+  /* ≤960px：照片与介绍回到上下排列（窄屏并排会挤成竖条），并收窄卡片居中 */
+  .about-grid .person-card{max-width:420px;margin:0 auto;grid-template-columns:1fr}
+  .person-photo{aspect-ratio:1/1.06;height:auto;max-height:400px}
   .person-body{padding:18px}
   .person-name{font-size:19px}
   .person-edu{font-size:13px;padding:12px 14px}
