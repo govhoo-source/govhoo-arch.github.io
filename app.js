@@ -48,6 +48,18 @@ const I18N = {
     fee1T: "固定费用", fee1D: "标准化服务产品，签约前提供书面报价，价格清晰透明，无隐藏费用。",
     fee2T: "计时收费", fee2D: "适用于争议解决与专项合规等个案化服务，按实际投入计费。",
     fee3T: "年度顾问 Retainer", fee3D: "打包年度法律顾问服务，享受优先响应与专属费率。",
+    faqEyebrow: "常见问题", faqTitle: "常见问题",
+    faqSub: "海外买家下单前最常问的几个问题。如需其他说明，欢迎通过 WhatsApp 直接联系我们。",
+    faqQ1: "海外买家在付款前如何核实一家中国供应商？",
+    faqA1: "我们核查供应商的工商登记档案、涉诉与被执行记录、失信名单、行政处罚及股权结构。标准中英双语尽调报告约 5 个工作日出具；含实地验厂的增强版为 10–15 个工作日。两项均为固定收费产品，委托前提供书面报价。",
+    faqQ2: "与中国供应商签订的采购合同应包含哪些内容？",
+    faqA2: "至少应包含：质量标准与验收方式、分阶段付款条件、逾期交货或质量不合格的违约金、知识产权归属、贸易术语（Incoterms）、适用法律与争议解决条款。我们提供中英双语合同并附条款说明备忘录，3–5 个工作日交付。",
+    faqQ3: "承运人未凭正本提单放货，我该怎么办？",
+    faqA3: "无单放货可向承运人主张赔偿责任。需要及时固定证据——正本提单、订舱与托运指示、放货记录，以及与承运人、货运代理之间的往来函件。中国法院认可此类索赔。我们在审阅单证后按案件报价。",
+    faqQ4: "我的商标在中国被他人抢注，有哪些救济途径？",
+    faqA4: "视具体情形可选择：对处于公告期的申请提出异议；对已注册商标提出无效宣告；以连续三年不使用为由申请撤销；并办理知识产权海关备案，以便查扣侵权货物。上述程序均受官方期限约束，时点非常关键。",
+    faqQ5: "你们的收费方式是怎样的？",
+    faqA5: "共三种模式：标准化产品采用固定收费，委托前提供书面报价；争议解决与专项合规按计时收费；另有年度法律顾问套餐。所有报价均为含税价；差旅、公证、翻译及其他第三方费用实报实销。",
     ctaTitle: "为您的中国采购保驾护航", ctaSub: "告诉我们您的采购需求与目标市场，我们将在 1 个工作日内回复。欢迎通过 WhatsApp 或邮件直接联系康雪崧律师团队。",
     btnEmail: "发送邮件",
     footBrand: "康雪崧律师团队<b> · 功承瀛泰</b>",
@@ -98,6 +110,18 @@ const I18N = {
     fee1T: "Fixed Fee", fee1D: "Standardised products with a written quote before engagement — clear, transparent, no hidden costs.",
     fee2T: "Hourly Billing", fee2D: "For bespoke work such as dispute resolution and ad-hoc compliance, billed on actual time spent.",
     fee3T: "Annual Retainer", fee3D: "A bundled annual counsel package with priority response and preferential rates.",
+    faqEyebrow: "FAQ", faqTitle: "Frequently Asked Questions",
+    faqSub: "Short answers to what overseas buyers ask most before placing an order. For anything else, message us on WhatsApp.",
+    faqQ1: "How can overseas buyers verify a Chinese supplier before paying?",
+    faqA1: "We check the supplier's business registration file, litigation and enforcement records, the dishonesty list, administrative penalties and its shareholding structure. A standard bilingual due-diligence report takes about 5 working days; the enhanced version, which includes a factory site visit, takes 10–15 working days. Both are fixed-fee products with a written quote before engagement.",
+    faqQ2: "What should a purchase contract with a Chinese supplier include?",
+    faqA2: "At a minimum: quality standards and acceptance criteria, staged payment terms, liquidated damages for late or defective delivery, IP ownership, trade terms (Incoterms), and governing law and dispute-resolution clauses. We deliver a bilingual contract with a clause-by-clause memo in 3–5 working days.",
+    faqQ3: "What can I do if the carrier released my cargo without the original bill of lading?",
+    faqA3: "Release without the original bill of lading can give rise to a claim for compensation against the carrier. Evidence needs to be preserved promptly — the original bill of lading, booking and shipping instructions, the delivery record, and correspondence with the carrier and freight forwarder. Chinese courts recognise claims of this kind. We quote per case after reviewing the documents.",
+    faqQ4: "Someone registered my trademark in China. What are my options?",
+    faqA4: "Depending on the circumstances: file an opposition against a published application; apply for invalidation of a registered mark; apply for cancellation on the ground of three years' non-use; and record your rights with China Customs so infringing goods can be detained. Each procedure runs on official deadlines, so timing is critical.",
+    faqQ5: "How do your fees work?",
+    faqA5: "Three models: fixed fees for standardised products, always with a written quote before engagement; hourly billing for disputes and bespoke compliance work; and an annual retainer package. All quotes are inclusive of tax; travel, notarisation, translation and other third-party costs are reimbursed at cost.",
     ctaTitle: "Protect Your Sourcing Journey in China", ctaSub: "Tell us about your sourcing needs and target market — we reply within one business day. Contact the Kang Xuesong Team via WhatsApp or email.",
     btnEmail: "Email Us",
     footBrand: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
@@ -520,7 +544,9 @@ function applyI18n(lang){
   const dict = I18N[lang] || I18N.en;
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
-    if (dict[key] !== undefined) el.innerHTML = dict[key];
+    /* FAQ 目前仅提供 zh/en；es/fr/de/ar 回退英文，避免切换语言后残留上一语言文本 */
+    const val = dict[key] !== undefined ? dict[key] : I18N.en[key];
+    if (val !== undefined) el.innerHTML = val;
   });
   document.title = dict.pageTitle || document.title;
   document.querySelector("#year").textContent = new Date().getFullYear();

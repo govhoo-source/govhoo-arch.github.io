@@ -320,7 +320,298 @@ header.nav-hidden{transform:translateY(-102%)}
   .btn-primary:hover,.btn-ghost:hover,.btn-wa:hover,.wa-chip:hover{transform:none}
   .wa-float:hover{transform:none}
 }
+/* ---------- FAQ（2026-10-17 新增，仅作用于 .faq-* ，不影响既有样式） ---------- */
+.faq{background:#fff}
+.faq-wrap{max-width:880px;margin:0 auto}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:14px;margin:0 0 12px;box-shadow:var(--shadow);overflow:hidden}
+.faq-item summary{position:relative;cursor:pointer;list-style:none;padding-block:20px;padding-inline:24px 58px;
+  font-family:var(--font-serif);font-size:16.5px;font-weight:700;color:var(--navy);line-height:1.5;transition:.15s}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";position:absolute;inset-inline-end:22px;top:50%;transform:translateY(-50%);
+  font-family:var(--font-body);font-size:22px;font-weight:400;color:var(--gold-deep);line-height:1}
+.faq-item[open] summary::after{content:"–"}
+.faq-item summary:hover{color:var(--gold-deep);background:var(--gold-light)}
+.faq-item[open] summary{background:var(--gold-light);border-bottom:1px solid var(--line)}
+.faq-body{padding:18px 24px 20px;color:var(--gray);font-size:14px;line-height:1.9}
+.faq-body p{margin:0}
+@media(max-width:640px){
+  .faq-item summary{font-size:15.5px;padding-block:16px;padding-inline:18px 46px}
+  .faq-item summary::after{inset-inline-end:16px;font-size:20px}
+  .faq-body{padding:15px 18px 18px;font-size:13.5px}
+}
 </style>
+<!-- Structured data: LegalService / LawFirm / Person + service catalogue (2026-10-17) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LegalService",
+      "@id": "https://www.familybondlaw.com/#service",
+      "name": "Kang Xuesong Team, Wintell & Co (Shenzhen Office)",
+      "alternateName": "康雪崧律师团队 · 上海功承瀛泰（深圳）律师事务所",
+      "description": "Full-chain bilingual legal support for overseas buyers sourcing from China: supplier due diligence, purchase contracts, payment security, intellectual property protection, trade compliance, maritime claims and dispute resolution.",
+      "url": "https://www.familybondlaw.com/",
+      "image": "https://www.familybondlaw.com/images/lawyer-portrait.jpg",
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "China"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Greater Bay Area"
+        },
+        {
+          "@type": "City",
+          "name": "Shenzhen"
+        }
+      ],
+      "availableLanguage": [
+        {
+          "@type": "Language",
+          "name": "English"
+        },
+        {
+          "@type": "Language",
+          "name": "Chinese"
+        }
+      ],
+      "provider": {
+        "@id": "https://www.familybondlaw.com/#firm"
+      },
+      "founder": {
+        "@id": "https://www.familybondlaw.com/#kangxuesong"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "China sourcing legal services for overseas buyers",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Supplier Standard Due Diligence",
+              "description": "Bilingual due-diligence report in about 5 working days, covering business registration records, litigation and enforcement history, the dishonesty list, administrative penalties and shareholding structure.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Enhanced Due Diligence (with site visit)",
+              "description": "All standard checks plus an accompanied factory visit and capacity verification; bilingual report with site photos or video in 10–15 working days.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Purchase Contract Drafting & Review",
+              "description": "Bilingual purchase contract covering quality standards and acceptance, staged payment, liquidated damages, IP ownership, trade terms and dispute resolution — delivered in 3–5 working days with a clause memo.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Payment & L/C Terms Review",
+              "description": "Written review opinion on T/T, D/P and L/C terms, with payment milestones and document requirements designed around your shipment.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trademark Registration",
+              "description": "China trademark search, filing and class strategy, with filing documents and follow-up on official notices within the official deadlines.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Customs Recordal & Seizure",
+              "description": "Recordal of your trademark or copyright with China Customs so that infringing shipments can be detained at the border.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Release without B/L & Cargo Claims",
+              "description": "Evidence preservation, demand on the carrier and claim or litigation to recover the value of cargo released without an original bill of lading, or damaged in transit.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Debt Collection & Settlement",
+              "description": "Bilingual demand letter within 48 hours, followed by repayment negotiation and drafting of a settlement agreement.",
+              "provider": {
+                "@id": "https://www.familybondlaw.com/#service"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LawFirm",
+      "@id": "https://www.familybondlaw.com/#firm",
+      "name": "Wintell & Co (Shenzhen Office)",
+      "alternateName": "上海功承瀛泰（深圳）律师事务所",
+      "url": "https://www.familybondlaw.com/",
+      "image": "https://www.familybondlaw.com/images/lawyer-portrait.jpg",
+      "description": "Shenzhen office of Wintell & Co, a full-service national law firm headquartered in Shanghai with 18 offices and nearly 500 professionals across China.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Shenzhen",
+        "addressRegion": "Guangdong",
+        "addressCountry": "CN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "China"
+      },
+      "employee": {
+        "@id": "https://www.familybondlaw.com/#kangxuesong"
+      },
+      "knowsLanguage": [
+        "en",
+        "zh"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.familybondlaw.com/#kangxuesong",
+      "name": "Kang Xuesong",
+      "alternateName": "康雪崧",
+      "jobTitle": "Partner and Team Lead",
+      "description": "China-licensed lawyer admitted in 2014, partner at Wintell & Co (Shenzhen Office), providing bilingual legal services to overseas buyers sourcing from China.",
+      "worksFor": {
+        "@id": "https://www.familybondlaw.com/#firm"
+      },
+      "url": "https://www.familybondlaw.com/#about",
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Sun Yat-sen University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "The University of Hong Kong"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "LL.B., Law",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Sun Yat-sen University"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "Postgraduate, Finance & Investment Management",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "The University of Hong Kong"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "license",
+          "name": "PRC Lawyer's Practice Licence",
+          "identifier": "14403201411015550"
+        }
+      ],
+      "knowsLanguage": [
+        "en",
+        "zh"
+      ]
+    }
+  ]
+}
+</script>
+<!-- Structured data: FAQPage (must mirror the visible FAQ section) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.familybondlaw.com/#faq",
+  "url": "https://www.familybondlaw.com/#faq",
+  "name": "Frequently Asked Questions",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can overseas buyers verify a Chinese supplier before paying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We check the supplier's business registration file, litigation and enforcement records, the dishonesty list, administrative penalties and its shareholding structure. A standard bilingual due-diligence report takes about 5 working days; the enhanced version, which includes a factory site visit, takes 10–15 working days. Both are fixed-fee products with a written quote before engagement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should a purchase contract with a Chinese supplier include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At a minimum: quality standards and acceptance criteria, staged payment terms, liquidated damages for late or defective delivery, IP ownership, trade terms (Incoterms), and governing law and dispute-resolution clauses. We deliver a bilingual contract with a clause-by-clause memo in 3–5 working days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What can I do if the carrier released my cargo without the original bill of lading?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Release without the original bill of lading can give rise to a claim for compensation against the carrier. Evidence needs to be preserved promptly — the original bill of lading, booking and shipping instructions, the delivery record, and correspondence with the carrier and freight forwarder. Chinese courts recognise claims of this kind. We quote per case after reviewing the documents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Someone registered my trademark in China. What are my options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depending on the circumstances: file an opposition against a published application; apply for invalidation of a registered mark; apply for cancellation on the ground of three years' non-use; and record your rights with China Customs so infringing goods can be detained. Each procedure runs on official deadlines, so timing is critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do your fees work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three models: fixed fees for standardised products, always with a written quote before engagement; hourly billing for disputes and bespoke compliance work; and an annual retainer package. All quotes are inclusive of tax; travel, notarisation, translation and other third-party costs are reimbursed at cost."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body data-page-node-id="qzYfp4py31KDtLFupfGDMb">
 
@@ -475,6 +766,37 @@ header.nav-hidden{transform:translateY(-102%)}
         <h4 data-i18n="fee3T" data-page-node-id="jExSI1CRvBkrMBrrMyr70Y">Annual Retainer</h4>
         <p data-i18n="fee3D" data-page-node-id="ZRLo1Rutzp247Nhzew5KAr">A bundled annual counsel package with priority response and preferential rates.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- faq -->
+<section id="faq" class="faq" data-page-node-id="faqSection20261017">
+  <div class="container" data-page-node-id="faqContainer20261017">
+    <p class="sec-eyebrow" data-i18n="faqEyebrow">FAQ</p>
+    <h2 class="sec-title" data-i18n="faqTitle">Frequently Asked Questions</h2>
+    <p class="sec-sub" data-i18n="faqSub">Short answers to what overseas buyers ask most before placing an order. For anything else, message us on WhatsApp.</p>
+    <div class="faq-wrap">
+      <details class="faq-item" open>
+        <summary data-i18n="faqQ1">How can overseas buyers verify a Chinese supplier before paying?</summary>
+        <div class="faq-body"><p data-i18n="faqA1">We check the supplier's business registration file, litigation and enforcement records, the dishonesty list, administrative penalties and its shareholding structure. A standard bilingual due-diligence report takes about 5 working days; the enhanced version, which includes a factory site visit, takes 10–15 working days. Both are fixed-fee products with a written quote before engagement.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faqQ2">What should a purchase contract with a Chinese supplier include?</summary>
+        <div class="faq-body"><p data-i18n="faqA2">At a minimum: quality standards and acceptance criteria, staged payment terms, liquidated damages for late or defective delivery, IP ownership, trade terms (Incoterms), and governing law and dispute-resolution clauses. We deliver a bilingual contract with a clause-by-clause memo in 3–5 working days.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faqQ3">What can I do if the carrier released my cargo without the original bill of lading?</summary>
+        <div class="faq-body"><p data-i18n="faqA3">Release without the original bill of lading can give rise to a claim for compensation against the carrier. Evidence needs to be preserved promptly — the original bill of lading, booking and shipping instructions, the delivery record, and correspondence with the carrier and freight forwarder. Chinese courts recognise claims of this kind. We quote per case after reviewing the documents.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faqQ4">Someone registered my trademark in China. What are my options?</summary>
+        <div class="faq-body"><p data-i18n="faqA4">Depending on the circumstances: file an opposition against a published application; apply for invalidation of a registered mark; apply for cancellation on the ground of three years' non-use; and record your rights with China Customs so infringing goods can be detained. Each procedure runs on official deadlines, so timing is critical.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faqQ5">How do your fees work?</summary>
+        <div class="faq-body"><p data-i18n="faqA5">Three models: fixed fees for standardised products, always with a written quote before engagement; hourly billing for disputes and bespoke compliance work; and an annual retainer package. All quotes are inclusive of tax; travel, notarisation, translation and other third-party costs are reimbursed at cost.</p></div>
+      </details>
     </div>
   </div>
 </section>
