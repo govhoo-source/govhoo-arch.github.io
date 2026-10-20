@@ -339,6 +339,24 @@ header.nav-hidden{transform:translateY(-102%)}
   .faq-item summary::after{inset-inline-end:16px;font-size:20px}
   .faq-body{padding:15px 18px 18px;font-size:13.5px}
 }
+/* ---------- Guides 下拉（2026-10-19 新增文章入口，仅作用于 .nav-drop） ---------- */
+.nav-drop{position:relative}
+.nav-drop>summary{list-style:none;display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border-radius:8px;font-size:14px;color:var(--ink);font-weight:500;cursor:pointer}
+.nav-drop>summary::-webkit-details-marker{display:none}
+.nav-drop>summary::after{content:"\25BE";font-size:10px;color:var(--gold-deep);line-height:1}
+.nav-drop>summary:hover,.nav-drop[open]>summary{background:var(--cream);color:var(--navy)}
+.nav-drop-menu{position:absolute;top:calc(100% + 8px);inset-inline-start:0;min-width:286px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:8px;z-index:130;display:flex;flex-direction:column;gap:2px}
+.nav-drop-menu a{display:block;padding:10px 12px;border-radius:8px;font-size:13.5px;line-height:1.45;color:var(--ink)}
+.nav-drop-menu a:hover{background:var(--gold-light);color:var(--navy)}
+@media(max-width:960px){
+  /* 五个入口时改为两行居中，避免挤压截断 */
+  .nav-links{justify-content:center;flex-wrap:wrap;gap:6px}
+  .nav-links a,.nav-drop>summary{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;font-size:13.5px;background:var(--cream);border-radius:9px;white-space:nowrap}
+  .nav-drop-menu{min-width:258px}
+}
+@media(max-width:520px){
+  .nav-links a,.nav-drop>summary{font-size:12.5px;padding:8px 9px}
+}
 </style>
 <!-- Structured data: LegalService / LawFirm / Person + service catalogue (2026-10-17) -->
 <script type="application/ld+json">
@@ -629,6 +647,13 @@ header.nav-hidden{transform:translateY(-102%)}
       <a href="#services" data-i18n="navServices" data-page-node-id="6Q9A1tO4nI3Vt7nLVNpdEu">Services</a>
       <a href="#about" data-i18n="navAbout" data-page-node-id="Sh2HjdJYsJvNOSDNrXFETr">About Us</a>
       <a href="#fees" data-i18n="navFees" data-page-node-id="qmbAdtFDYGX6ezQPCZPamN">Fee Models</a>
+      <details class="nav-drop">
+        <summary data-i18n="navGuides">Guides</summary>
+        <div class="nav-drop-menu">
+          <a href="./supplier-changed-bank-account/" data-i18n="guide1">Supplier Bank Account Scam</a>
+          <a href="./cargo-released-without-bill-of-lading/" data-i18n="guide2">Cargo Released Without B/L</a>
+        </div>
+      </details>
       <a href="#contact" data-i18n="navContact" data-page-node-id="egABcyEM8SVQDKDrrOPfnH">Contact</a>
     </nav>
     <div class="header-actions" data-page-node-id="iF0EloJZvXE4UXrcvNzuiQ">

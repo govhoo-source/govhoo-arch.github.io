@@ -11,6 +11,8 @@ const I18N = {
     brandName: "康雪崧律师团队<b> · 功承瀛泰</b>",
     brandSub: "跨境采购法律服务 · 中国 · 深圳",
     navServices: "服务清单", navAbout: "关于我们", navFees: "收费模式", navContact: "联系我们",
+    navGuides: "实务指南", guide1: "供应商改收款账户骗局", guide2: "无单放货索赔",
+    bcHome: "首页", backHome: "返回首页", articleEnOnly: "本文目前仅提供英文版。",
     heroEyebrow: "外国采购商 · 中国法律服务清单",
     heroTitle1: "外国采购商", heroTitle2: "中国法律服务清单",
     heroSub: "从供应商尽职调查到采购合同、货款安全、知识产权保护、贸易合规与争议解决——康雪崧律师团队依托功承瀛泰全国网络，为境外采购商提供全链条、中英双语的在地法律支持。",
@@ -73,6 +75,8 @@ const I18N = {
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Cross-border Sourcing Legal Services · Shenzhen, China",
     navServices: "Services", navAbout: "About Us", navFees: "Fee Models", navContact: "Contact",
+    navGuides: "Guides", guide1: "Supplier Bank Account Scam", guide2: "Cargo Released Without B/L",
+    bcHome: "Home", backHome: "Back to Home", articleEnOnly: "This article is currently available in English only.",
     heroEyebrow: "Legal Service Catalogue for Overseas Buyers",
     heroTitle1: "Legal Services for", heroTitle2: "Overseas Buyers in China",
     heroSub: "From supplier due diligence to purchase contracts, payment security, IP protection, trade compliance and dispute resolution — the Kang Xuesong Team, backed by Wintell & Co's national network, provides full-chain, bilingual on-the-ground legal support for overseas buyers.",
@@ -135,6 +139,8 @@ const I18N = {
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Servicios legales transfronterizos · Shenzhen, China",
     navServices: "Servicios", navAbout: "Nosotros", navFees: "Honorarios", navContact: "Contacto",
+    navGuides: "Guías", guide1: "Fraude del cambio de cuenta", guide2: "Carga entregada sin B/L",
+    bcHome: "Inicio", backHome: "Volver al inicio", articleEnOnly: "Este artículo solo está disponible en inglés por el momento.",
     heroEyebrow: "Catálogo de servicios legales para compradores internacionales",
     heroTitle1: "Servicios legales para", heroTitle2: "compradores internacionales en China",
     heroSub: "Desde la diligencia debida de proveedores hasta contratos de compra, seguridad de pagos, protección de propiedad intelectual, cumplimiento comercial y resolución de disputas — el equipo de Kang Xuesong, con la red nacional de Wintell & Co, ofrece apoyo legal integral y bilingüe para compradores en el extranjero.",
@@ -185,6 +191,8 @@ const I18N = {
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Services juridiques transfrontaliers · Shenzhen, Chine",
     navServices: "Services", navAbout: "À propos", navFees: "Honoraires", navContact: "Contact",
+    navGuides: "Guides", guide1: "Fraude au changement de compte", guide2: "Marchandise livrée sans connaissement",
+    bcHome: "Accueil", backHome: "Retour à l'accueil", articleEnOnly: "Cet article n'est actuellement disponible qu'en anglais.",
     heroEyebrow: "Catalogue de services juridiques pour acheteurs internationaux",
     heroTitle1: "Services juridiques pour", heroTitle2: "acheteurs internationaux en Chine",
     heroSub: "De la due diligence fournisseur aux contrats d'achat, sécurité des paiements, protection de la propriété intellectuelle, conformité commerciale et règlement des litiges — l'équipe Kang Xuesong, appuyée par le réseau national de Wintell & Co, offre un accompagnement juridique complet et bilingue aux acheteurs étrangers.",
@@ -235,6 +243,8 @@ const I18N = {
     brandName: "Kang Xuesong Team<b> · Wintell &amp; Co</b>",
     brandSub: "Grenzüberschreitende Rechtsdienstleistungen · Shenzhen, China",
     navServices: "Leistungen", navAbout: "Über uns", navFees: "Honorare", navContact: "Kontakt",
+    navGuides: "Ratgeber", guide1: "Betrug beim Kontowechsel", guide2: "Ware ohne Original-Frachtbrief",
+    bcHome: "Startseite", backHome: "Zurück zur Startseite", articleEnOnly: "Dieser Artikel ist derzeit nur auf Englisch verfügbar.",
     heroEyebrow: "Rechtsdienstleistungskatalog für internationale Käufer",
     heroTitle1: "Rechtsdienstleistungen für", heroTitle2: "internationale Käufer in China",
     heroSub: "Von der Lieferanten-Due-Diligence über Kaufverträge und Zahlungssicherheit bis zu IP-Schutz, Handels-Compliance und Streitbeilegung – das Team Kang Xuesong, gestützt auf das nationale Netz von Wintell & Co, bietet ausländischen Käufern umfassende, zweisprachige Rechtsunterstützung vor Ort.",
@@ -285,6 +295,8 @@ const I18N = {
     brandName: "فريق كانغ شيويه سونغ<b> · وينتل آند كو</b>",
     brandSub: "خدمات قانونية عابرة للحدود · شنتشن، الصين",
     navServices: "الخدمات", navAbout: "من نحن", navFees: "الأتعاب", navContact: "اتصل بنا",
+    navGuides: "أدلة", guide1: "احتيال تغيير الحساب البنكي", guide2: "تسليم البضاعة دون بوليصة",
+    bcHome: "الرئيسية", backHome: "العودة إلى الرئيسية", articleEnOnly: "هذا المقال متاح باللغة الإنجليزية فقط في الوقت الحالي.",
     heroEyebrow: "كتالوج الخدمات القانونية للمشترين الأجانب",
     heroTitle1: "خدمات قانونية", heroTitle2: "للمشترين الأجانب في الصين",
     heroSub: "من العناية الواجبة بالموردين إلى عقود الشراء، وأمان المدفوعات، وحماية الملكية الفكرية، والامتثال التجاري، وحل النزاعات — يقدم فريق كانغ شيويه سونغ، بدعم شبكة وينتل آند كو الوطنية، دعماً قانونياً شاملاً وثنائي اللغة للمشترين الأجانب.",
@@ -539,8 +551,11 @@ let currentLang = "en";
 function pick(obj, lang){ return (obj && obj[lang]) ? obj[lang] : (obj && obj.en) ? obj.en : ""; }
 
 function applyI18n(lang){
-  document.documentElement.lang = lang;
-  document.documentElement.dir = (lang === "ar") ? "rtl" : "ltr";
+  /* 文章页：正文固定英文，仅外壳跟随语言；不覆盖 <title>、不切换 dir，避免英文正文被 RTL 镜像 */
+  const isArticle = document.body && document.body.hasAttribute("data-article-page");
+  const articleLang = document.querySelector("[data-article-lang]");
+  document.documentElement.lang = (isArticle && articleLang) ? articleLang.getAttribute("data-article-lang") : lang;
+  document.documentElement.dir = isArticle ? "ltr" : ((lang === "ar") ? "rtl" : "ltr");
   const dict = I18N[lang] || I18N.en;
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
@@ -548,8 +563,9 @@ function applyI18n(lang){
     const val = dict[key] !== undefined ? dict[key] : I18N.en[key];
     if (val !== undefined) el.innerHTML = val;
   });
-  document.title = dict.pageTitle || document.title;
-  document.querySelector("#year").textContent = new Date().getFullYear();
+  if(!isArticle) document.title = dict.pageTitle || document.title;
+  const yearEl = document.querySelector("#year");
+  if(yearEl) yearEl.textContent = new Date().getFullYear();
   renderCatalogue(lang);
 }
 
@@ -615,6 +631,12 @@ function locNum(lang, s){
   sel.addEventListener("change", () => {
     currentLang = sel.value;
     applyI18n(currentLang);
+  });
+  /* Guides 下拉：点击外部自动收起 */
+  document.addEventListener("click", e => {
+    document.querySelectorAll("details.nav-drop[open]").forEach(d => {
+      if(!d.contains(e.target)) d.removeAttribute("open");
+    });
   });
   /* scroll spy for category chips */
   const blocks = CATALOGUE.map(c => document.getElementById("cat-"+c.id));
